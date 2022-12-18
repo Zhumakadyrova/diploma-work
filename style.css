@@ -3,7 +3,7 @@
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(203, 58, 58);
+
   margin: 0;
 }
 .first {
@@ -47,13 +47,18 @@ nav ul li a {
 .section-3{
   background-image: url(./icon/Rectangle-back.png);
   display: flex;
+
 }
 .section-3 .number-1{
+  align-items: center;
+  text-align: center;
   width: 50%;
-  height: 300px;
+  height: 200px;
+  margin-top: 80px;
   padding: 70px 30px;
 }
 .section-3 .number-1 button{
+  
   background-color: rgba(183, 180, 180, 0.541);
   border-radius: 8px;
   border: 1px solid rgba(183, 180, 180, 0.541);
@@ -76,9 +81,10 @@ nav ul li a {
   padding: 7px 8px;
   margin: 0px 10px;
 }
-.section-3 number-3{
-  padding: 5px;
+.section-3 .number-3 input{
+  padding: 8px 10px;
   border: 1px solid rgba(208, 203, 203, 0.727);
+  color: gray;
 }
 .section-4 nav #paragraph{
   display: inline-block;
@@ -91,6 +97,37 @@ nav ul li a {
   list-style-type: none;
 }
 .section-5{
+text-align: center;
+}
+.section-6{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.section-6 p{
+  max-width: 80%;
+ 
+}
+.section-6 .part-1{
+  display: inline;
+  padding-top: 50px;
+  width: 32%;
+  background-image: url(./icon/Rectangle\ \(3\).png);
+}
+.section-6 .part-2{
+  display: inline;
+  padding-top: 50px;
+  width: 32%;
+  background-image: url(./icon/Rectangle\ \(3\).png);
+}
+
+.section-6 .part-3{
+  display: inline;
+  padding: 50px;
+  width: 32%;
+  background-image: url(./icon/Rectangle\ \(3\).png);
+  
 }
 
