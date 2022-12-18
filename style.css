@@ -2,20 +2,95 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(203, 58, 58);
   margin: 0;
 }
 .first {
   background-color: rgba(40, 122, 55, 0.634);
   text-align: center;
   color: white;
-  padding: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 4px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav ul {
   display: flex;
-  justify-content: space-evenly;
-
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  background-color: white;
+  padding: 15px;
 }
+
+nav ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+
+.button-first {
+  margin: 20px 15px;
+  border-radius: 7px;
+  padding: 7px 25px;
+  border: 1px solid gray;
+}
+.button-first.b1 {
+  color: black;
+  background-color: white;
+}
+.button-first.b2 {
+  color: white;
+  background-color: orange;
+}
+.section-3{
+  background-image: url(./icon/Rectangle-back.png);
+  display: flex;
+}
+.section-3 .number-1{
+  width: 50%;
+  height: 300px;
+  padding: 70px 30px;
+}
+.section-3 .number-1 button{
+  background-color: rgba(183, 180, 180, 0.541);
+  border-radius: 8px;
+  border: 1px solid rgba(183, 180, 180, 0.541);
+}
+
+.section-3 .number-1 #frame-1{
+  margin: -9% -5%
+}
+.section-3 .number-1 #frame-2{
+  margin: 13% 85%;
+}
+.section-3 .number-4{
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+.section-3 .number-4 button{
+  color: white;
+  background-color: orange;
+  padding: 7px 8px;
+  margin: 0px 10px;
+}
+.section-3 number-3{
+  padding: 5px;
+  border: 1px solid rgba(208, 203, 203, 0.727);
+}
+.section-4 nav #paragraph{
+  display: inline-block;
+  padding-right: 500px;
+}
+.section-4 nav ul a {
+  background-color: white;
+  color: gray;
+  font-weight: 600;
+  list-style-type: none;
+}
+.section-5{
+  text-align: center;
+}
+
