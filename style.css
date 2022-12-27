@@ -57,18 +57,25 @@ nav ul li a {
   margin-top: 80px;
   padding: 70px 30px;
 }
-.section-3 .number-1 button{
-  
+.section-3 .number-1 .button-1{
+  padding-left: 0; 
   background-color: rgba(183, 180, 180, 0.541);
   border-radius: 8px;
   border: 1px solid rgba(183, 180, 180, 0.541);
 }
+.section-3 .number-1,h1,p {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+
 
 .section-3 .number-1 #frame-1{
-  margin: -9% -5%
+  margin-top le;: -9% -5%
 }
 .section-3 .number-1 #frame-2{
-  margin: 13% 85%;
+  margin-bottom: none;
 }
 .section-3 .number-4{
   display: flex;
@@ -103,7 +110,7 @@ text-align: center;
   text-align: center;
   display: flex;
   justify-content: center;
-  
+  margin: 40px 10px;
   
 }
 .section-6 p{
@@ -114,36 +121,48 @@ text-align: center;
   display: inline;
   padding-top: 50px;
   width: 32%;
-  background-image: url(./icon/Rectangle\ \(3\).png);
+  border: 1px solid rgba(128, 128, 128, 0.316);
+  border-radius: 10px;
+  margin: 8px;
 }
 .section-6 .part-2{
   display: inline;
   padding-top: 50px;
   width: 32%;
-  background-image: url(./icon/Rectangle\ \(3\).png);
+  border: 1px solid rgba(128, 128, 128, 0.316);
+  border-radius: 10px;
+  margin: 8px;
+  
 }
 
 .section-6 .part-3{
   display: inline;
   padding: 50px;
   width: 32%;
-  background-image: url(./icon/Rectangle\ \(3\).png);
+  border: 1px solid rgba(128, 128, 128, 0.316);
+  border-radius: 10px;
+  margin: 8px;
   
 }
 .section-7 {
-  margin: 0;
+margin: 0;
 display: flex;
-justify-content:stretch;
-align-items: center;
+justify-content: center;
+
+
 }
 .section-7 .part-1{
   width: 50%;
   padding: 0px;
+  height: 200px;
+  margin-top: 80px;
+  padding: 40px 20px;
 }
 .section-7 .part-1 .button-1{
-border-radius: 15px;
+border-radius: 12px;
 border: 1px solid rgba(128, 128, 128, 0.31);
 padding: 6px;
+
 }
 .section-7 .part-1 .button-2{
   padding: 12px;
@@ -156,6 +175,12 @@ padding: 6px;
 .section-7 .part-1 p{
   color: gray;
 }
+.section-7 .part-1 .button-3{
+  margin: 10px;
+}
 .section-7 .part-2 img{
-  width: 100%;
+  width: 600px;
+  align-items: center;
+  height: 500px;
+  margin: 18px;
 }
