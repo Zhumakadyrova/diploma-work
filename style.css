@@ -22,7 +22,7 @@ nav ul li .li-1 {
   justify-content: ;
   align-items: center;
 }
-nav ul li .li-1 img{
+nav ul li .li-1 img {
   padding: 5px;
 }
 nav ul {
@@ -38,6 +38,7 @@ nav ul li a {
   text-decoration: none;
   padding: 20px;
   color: black;
+  border: 1px solid rgba(215, 210, 210, 0.118);
 }
 
 .button-first {
@@ -46,7 +47,11 @@ nav ul li a {
   padding: 7px 25px;
   border: 1px solid rgba(128, 128, 128, 0.197);
   height: 40px;
-  
+  padding: 55px;
+}
+.button-1 {
+  padding: 6px;
+  border-radius: 8px;
 }
 .button-first.b1 {
   color: black;
@@ -59,8 +64,23 @@ nav ul li a {
   width: 150px;
   border: 1px solid orange;
 }
-.container{
+.container {
   margin: 0 auto;
+}
+.row,
+row-0 .col-6 .frame-1 {
+  position: relative;
+  padding-top: 0;
+}
+.row,
+row-0 .col-6 .frame-2 {
+  position: relative;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+.row,row-0 .col-6 h1 p{
+  padding: 0 120px ;
+  display: inline;
 }
 
 /* .row.row-0{
@@ -70,8 +90,8 @@ nav ul li a {
   height: 200px;
   margin-top: 80px;
   padding: 70px 30px;
-}
-.row.row-0 .button-1{
+} */
+/* .row.row-0 .button-1{
   padding-left: 0; 
   background-color: rgba(183, 180, 180, 0.541);
   border-radius: 8px;
@@ -81,12 +101,9 @@ nav ul li a {
   max-width: 80%;
   margin: 0 auto;
   padding: 18px;
-}
+} */
 
-
-
-
-.row.row-0 .col-6{
+/* .row.row-0 .col-6{
   display: flex;
   justify-content: center;
   padding: 4px;
@@ -101,7 +118,7 @@ nav ul li a {
   padding: 8px 10px;
   border: 1px solid rgba(208, 203, 203, 0.727);
   color: gray;
-} */
+}  */
 /* .row.row-0 .col-6 #frame-1{
   position: absolute;
   top: 0px;
@@ -111,10 +128,9 @@ nav ul li a {
   position: absolute;
   bottom: 0px;
   right: 0px;
-} */
+}  */
 
-
-.section-4 nav #paragraph{
+.section-4 nav #paragraph {
   display: inline-block;
   padding-right: 500px;
 }
@@ -124,21 +140,19 @@ nav ul li a {
   font-weight: 600;
   list-style-type: none;
 }
-.section-5{
-text-align: center;
+.section-5 {
+  text-align: center;
 }
-.section-6{
+.section-6 {
   text-align: center;
   display: flex;
   justify-content: center;
   margin: 40px 10px;
-  
 }
-.section-6 p{
+.section-6 p {
   max-width: 80%;
- 
 }
-.section-6 .part-1{
+.section-6 .part-1 {
   display: inline;
   padding-top: 50px;
   width: 32%;
@@ -146,63 +160,61 @@ text-align: center;
   border-radius: 10px;
   margin: 8px;
 }
-.section-6 .part-2{
+.section-6 .part-2 {
   display: inline;
   padding-top: 50px;
   width: 32%;
   border: 1px solid rgba(128, 128, 128, 0.316);
   border-radius: 10px;
   margin: 8px;
-  
 }
 
-.section-6 .part-3{
+.section-6 .part-3 {
   display: inline;
   padding: 50px;
   width: 32%;
   border: 1px solid rgba(128, 128, 128, 0.316);
   border-radius: 10px;
   margin: 8px;
-  
 }
 .row {
-margin: 0;
-display: flex;
-justify-content: center;
-
-
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
-.row col-6,.part-1{
+.row col-6,
+.part-1 {
   padding-top: 150px;
   max-width: 700px;
 }
-.row col-6.part-1, .button-1{
-border-radius: 12px;
-border: 1px solid rgba(128, 128, 128, 0.31);
-margin-left: 0px ;
-
+.row col-6.part-1,
+.button-1 {
+  border-radius: 12px;
+  border: 1px solid rgba(128, 128, 128, 0.31);
+  margin-left: 0px;
 }
-.row col-6.part-1, .button-2{
+.row col-6.part-1,
+.button-2 {
   padding: 12px;
   margin: 5px 20px;
   background-color: white;
   border: 1px solid gainsboro;
   box-shadow: 0 0 2px;
   border-radius: 5px;
-  
 }
-.row col-6.part-1 p{
+.row col-6.part-1 p {
   color: gray;
 }
-.row col-6.part-1, .button-3{
+.row col-6.part-1,
+.button-3 {
   padding: 40px;
 }
-.row col-6.part-2 img{
+.row col-6.part-2 img {
   width: 600px;
   align-items: center;
   height: 500px;
   margin: 18px;
 }
-.row-2{
+.row-2 {
   margin: 80px;
 }
