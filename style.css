@@ -7,18 +7,23 @@ body {
   margin: 0;
 }
 .first {
-  background-color: rgba(40, 122, 55, 0.634);
+  background-color: rgba(76, 106, 81, 0.816);
   text-align: center;
   color: white;
   margin: 0;
-  padding: 4px;
+  padding: 8px;
   display: flex;
   justify-content: space-around;
 }
 nav ul li .li-1 {
-  padding-right: 500px;
+  font-weight: bolder;
+  padding: 0 450px 0 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: ;
+  align-items: center;
+}
+nav ul li .li-1 img{
+  padding: 5px;
 }
 nav ul {
   display: flex;
@@ -39,15 +44,20 @@ nav ul li a {
   margin: 20px 15px;
   border-radius: 7px;
   padding: 7px 25px;
-  border: 1px solid gray;
+  border: 1px solid rgba(128, 128, 128, 0.197);
+  height: 40px;
+  
 }
 .button-first.b1 {
   color: black;
   background-color: white;
+  width: 110px;
 }
 .button-first.b2 {
   color: white;
-  background-color: orange;
+  background-color: rgb(235, 130, 19);
+  width: 150px;
+  border: 1px solid orange;
 }
 .container{
   margin: 0 auto;
