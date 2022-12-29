@@ -91,26 +91,25 @@ nav ul li a {
   border: none;
   padding: 8px;
   border-radius: 15px;
-  margin: 20px 30px;
+  margin: 120px 50px 0 50px ;
 }
 .section h1{
   font-size: 50px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .section p{
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
   color: gray;
   font-size: 20px;
-  margin-bottom: -55px;
 }
 .col-6 img{
   height: 700px;
   width: 600px;
 }
 .section input{
-  margin-left: 150px;
+  margin-left: 50px ;
   padding: 8px ;
   color: gray;
   border: 1px solid rgba(128, 128, 128, 0.222);
