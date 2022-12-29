@@ -46,8 +46,8 @@ nav ul li a {
   border-radius: 7px;
   padding: 7px 25px;
   border: 1px solid rgba(128, 128, 128, 0.197);
-  height: 40px;
-  padding: 55px;
+  height: 20px;
+  padding: 13px 20px 23px 20px;
 }
 .button-1 {
   padding: 6px;
@@ -64,73 +64,16 @@ nav ul li a {
   width: 150px;
   border: 1px solid orange;
 }
-.container {
+
+.container{
   margin: 0 auto;
 }
-.row,
-row-0 .col-6 .frame-1 {
-  position: relative;
-  padding-top: 0;
-}
-.row,
-row-0 .col-6 .frame-2 {
-  position: relative;
-  padding-bottom: 0;
-  padding-right: 0;
-}
-.row,row-0 .col-6 h1 p{
-  padding: 0 120px ;
+.row, row-0{
   display: inline;
 }
 
-/* .row.row-0{
-  align-items: center;
-  text-align: center;
-  width: 50%;
-  height: 200px;
-  margin-top: 80px;
-  padding: 70px 30px;
-} */
-/* .row.row-0 .button-1{
-  padding-left: 0; 
-  background-color: rgba(183, 180, 180, 0.541);
-  border-radius: 8px;
-  border: 1px solid rgba(183, 180, 180, 0.541);
-}
-.row.row-0 h1 p {
-  max-width: 80%;
-  margin: 0 auto;
-  padding: 18px;
-} */
 
-/* .row.row-0 .col-6{
-  display: flex;
-  justify-content: center;
-  padding: 4px;
-}
-.row.row-0 .col-6 button{
-  color: white;
-  background-color: orange;
-  padding: 7px 8px;
-  margin: 0px 10px;
-}
-.row.row-0 .col-6 input{
-  padding: 8px 10px;
-  border: 1px solid rgba(208, 203, 203, 0.727);
-  color: gray;
-}  */
-/* .row.row-0 .col-6 #frame-1{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.row.row-0 .col-6 #frame-2{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}  */
-
-.section-4 nav #paragraph {
+/* .section-4 nav #paragraph {
   display: inline-block;
   padding-right: 500px;
 }
@@ -139,7 +82,7 @@ row-0 .col-6 .frame-2 {
   color: gray;
   font-weight: 600;
   list-style-type: none;
-}
+} */
 .section-5 {
   text-align: center;
 }
