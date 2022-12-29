@@ -224,3 +224,11 @@ align-items: center;
   margin: 8px;
 }
 
+.flash-cards{
+  position: absolute;
+}
+.headline img{
+  position: relative;
+  top: 0;
+  right: 0;
+}
