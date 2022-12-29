@@ -109,7 +109,7 @@ nav ul li a {
 
 
 
-/* .section-4 nav #paragraph {
+.section-4 nav .paragraph {
   display: inline-block;
   padding-right: 500px;
 }
@@ -118,7 +118,7 @@ nav ul li a {
   color: gray;
   font-weight: 600;
   list-style-type: none;
-} */
+} 
 .section-5 {
   text-align: center;
 }
