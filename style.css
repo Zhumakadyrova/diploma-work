@@ -19,7 +19,6 @@ nav ul li .li-1 {
   font-weight: bolder;
   padding: 0 450px 0 100px;
   display: flex;
-  justify-content: ;
   align-items: center;
 }
 nav ul li .li-1 img {
@@ -224,11 +223,11 @@ align-items: center;
   margin: 8px;
 }
 
-/* .flash-cards{
-  position: absolute;
-}
-.headline img{
+ .flash-cards{
   position: relative;
+}
+.headline .frame4{
+  position: absolute;
   top: 0;
   right: 0;
-} */
+} 
