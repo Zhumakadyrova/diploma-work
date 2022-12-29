@@ -78,6 +78,12 @@ nav ul li a {
   bottom: 0;
   right: 0; */
 
+.section button{
+  border: none;
+  padding: 8px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
 .section h1{
   font-size: 50px;
   padding-left: 150px;
