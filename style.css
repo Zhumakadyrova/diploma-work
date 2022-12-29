@@ -73,12 +73,9 @@ nav ul li a {
   top: 0;
   left: 0;
 }
-.col-6 .section .frame-2{
-  position: absolute;
-  bottom: 0;
-  right: 0; */
+.col-6 */
 
-.section button{
+.section .button-1{
   border: none;
   padding: 8px;
   border-radius: 15px;
@@ -94,7 +91,22 @@ nav ul li a {
   padding-right: 150px;
   color: gray;
   font-size: 20px;
+  margin-bottom: -55px;
 }
+.section input{
+  margin-left: 150px;
+  padding: 8px ;
+  color: gray;
+  border: 1px solid rgba(128, 128, 128, 0.222);
+  border-radius: 8px;
+}
+.section .button-2{
+  background-color: rgba(227, 70, 13, 0.9);
+  border: none;
+  color: white;
+  padding: 8px 20px ;
+}
+
 
 
 /* .section-4 nav #paragraph {
