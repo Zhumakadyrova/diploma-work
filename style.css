@@ -231,3 +231,6 @@ align-items: center;
   top: 0;
   right: 0;
 } 
+.gray img{
+background-color: rgb(183, 36, 36);
+}
