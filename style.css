@@ -186,19 +186,17 @@ align-items: center;
   display: flex;
   justify-content: center;
 }
-.row col-6,
+.option-1,
 .part-1 {
   padding-top: 150px;
   max-width: 700px;
 }
-.row col-6.part-1,
-.button-1 {
+.option-1 .button-1 {
   border-radius: 12px;
   border: 1px solid rgba(128, 128, 128, 0.31);
   margin-left: 0px;
 }
-.row col-6.part-1,
-.button-2 {
+.option-1 .button-2 {
   padding: 12px;
   margin: 5px 20px;
   background-color: white;
@@ -206,19 +204,15 @@ align-items: center;
   box-shadow: 0 0 2px;
   border-radius: 5px;
 }
-.row col-6.part-1 p {
+.option-1 p {
   color: gray;
 }
-.row col-6.part-1,
+.option-1
 .button-3 {
   padding: 40px;
 }
-.row col-6.part-2 img {
-  width: 600px;
-  align-items: center;
-  height: 500px;
-  margin: 18px;
+.option img{
+  height: 20px;
+  width: 20px;
 }
-.row-2 {
-  margin: 80px;
-}
+
