@@ -68,8 +68,15 @@ nav ul li a {
 .container{
   margin: 0 auto;
 }
-.row, row-0{
-  display: inline;
+.section-1 .frame-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.row.row-0 .section-1 .frame-2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 
