@@ -247,12 +247,18 @@ background-color: rgb(183, 36, 36);
 }
 .row.three .col-4{
   background-color: white;
-  height: 50px;
+  height: 150px;
+  width: 400px;
   margin: 8px;
-  padding: 55px;
+  padding-left: 45px;
+  border-radius: 8px;
 }
 .row.four .col-4{
   background-color: white;
   margin: 8px;
-  padding: 55px;
+  padding-left: 45px;
+  height: 150px;
+  width: 400px;
+  border-radius: 8px;
 }
+.col-4
