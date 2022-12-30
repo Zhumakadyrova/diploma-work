@@ -318,3 +318,14 @@ align-items: center;
   float: left;
   padding-right: 11px;
 }
+.section-10{
+  background-color: rgba(128, 128, 128, 0.084);
+  height: 800px;
+}
+.section-10 button{
+  margin: 80px 50px;
+  background-color: rgba(128, 128, 128, 0.57);
+  border: none;
+  padding: 8px 15px;
+  border-radius: 18px;
+}
