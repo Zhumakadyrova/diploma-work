@@ -269,6 +269,7 @@ align-items: center;
   display: inline-block;
   align-items: center;
   background-color: rgb(104, 101, 101);
+  border-radius: 12px;
 }
 .container.container-1{
   margin:  0 250px;
@@ -293,6 +294,5 @@ align-items: center;
   border-radius: 8px;
   }
 .gray button{
-  margin: 20px;
-  align-items: center;
+  margin: 30px 520px;
 }
