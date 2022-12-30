@@ -308,3 +308,13 @@ align-items: center;
   text-align: center;
   color: gray;
 }
+.row.five .col-4{
+  margin: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.462);
+  border-radius: 12px;
+  padding: 18px;
+}
+.col-4 img{
+  float: left;
+  padding-right: 11px;
+}
