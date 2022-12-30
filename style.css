@@ -231,9 +231,7 @@ align-items: center;
   top: 0;
   right: 0;
 } 
-.gray img{
-background-color: rgb(183, 36, 36);
-}
+
 .flash-cards button{
   display: inline-block;
   align-items: center;
@@ -281,7 +279,16 @@ background-color: rgb(183, 36, 36);
 }
 .gray h2{
   text-align: center;
+  color: white;
 }
 .gray p{
-  
+  text-align: center;
+  margin: 0 80px;
+  color:white;
 }
+.gray img{
+  margin: 40px 550px;
+  height: 70px;
+  background-color: white;
+  border-radius: 8px;
+  }
