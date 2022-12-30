@@ -272,3 +272,16 @@ background-color: rgb(183, 36, 36);
   align-items: center;
   background-color: rgb(104, 101, 101);
 }
+.container.container-1{
+  margin:  0 250px;
+}
+.gray img{
+  display: inline-block;
+  align-items: center;
+}
+.gray h2{
+  text-align: center;
+}
+.gray p{
+  
+}
