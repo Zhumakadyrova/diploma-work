@@ -292,3 +292,7 @@ align-items: center;
   background-color: white;
   border-radius: 8px;
   }
+.gray button{
+  margin: 20px;
+  align-items: center;
+}
