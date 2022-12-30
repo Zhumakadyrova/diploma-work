@@ -121,12 +121,12 @@ nav ul li a {
   padding: 8px 20px ;
 }
 
-.flash-cards{
-  background-color: rgba(128, 128, 128, 0.366);
+.back{
+  background-color: rgba(128, 128, 128, 0.158);
+}
 }
 .flash-cards .headline button{
 padding: 10px;
-background-color: rgba(128, 128, 128, 0.368);
 border: none;
 border-radius: 12px;
 display: inline;
@@ -233,4 +233,14 @@ align-items: center;
 } 
 .gray img{
 background-color: rgb(183, 36, 36);
+}
+.flash-cards button{
+  display: inline-block;
+  align-items: center;
+  margin-left: 350px;
+}
+section-8 .row.three{
+  background-color: white;
+  margin: 8px;
+  padding: 55px;
 }
