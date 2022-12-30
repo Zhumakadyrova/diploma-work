@@ -301,3 +301,10 @@ align-items: center;
   padding: 9px;
   color: white;
 }
+.section-9 h2{
+  text-align: center;
+}
+.section-9 p{
+  text-align: center;
+  color: gray;
+}
