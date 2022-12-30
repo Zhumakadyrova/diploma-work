@@ -239,7 +239,19 @@ background-color: rgb(183, 36, 36);
   align-items: center;
   margin-left: 350px;
 }
-section-8 .row.three{
+.section-8 h1{
+  text-align: center;
+}
+.section-8 p{
+  text-align: center;
+}
+.row.three .col-4{
+  background-color: white;
+  height: 50px;
+  margin: 8px;
+  padding: 55px;
+}
+.row.four .col-4{
   background-color: white;
   margin: 8px;
   padding: 55px;
