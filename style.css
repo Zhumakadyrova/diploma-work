@@ -266,4 +266,9 @@ background-color: rgb(183, 36, 36);
   margin-left: 350px;
 
 }
-.col-4
+
+.container .gray{
+  display: inline-block;
+  align-items: center;
+  background-color: rgb(104, 101, 101);
+}
