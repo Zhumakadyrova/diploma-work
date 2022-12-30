@@ -255,10 +255,15 @@ background-color: rgb(183, 36, 36);
 }
 .row.four .col-4{
   background-color: white;
-  margin: 8px;
+  margin-bottom: 18px;
   padding-left: 45px;
   height: 150px;
   width: 400px;
   border-radius: 8px;
+}
+.button-5 button{
+  display: inline-block;
+  margin-left: 350px;
+
 }
 .col-4
