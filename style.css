@@ -348,3 +348,7 @@ align-items: center;
 .footer ul{
   list-style-type: none;
 }
+.bottom{
+  display: flex;
+  justify-content: space-between;
+}
