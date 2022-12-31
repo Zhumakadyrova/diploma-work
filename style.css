@@ -339,7 +339,10 @@ align-items: center;
   color: gray;
 }
 .footer {
-  margin-top: 50px;
+  padding-top: 100px;
   display:  flex;
   justify-content: space-between;
+}
+.footer ul{
+  list-style-type: none;
 }
