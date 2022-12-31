@@ -352,3 +352,6 @@ align-items: center;
   display: flex;
   justify-content: space-between;
 }
+.bottom img{
+  margin: 5px;
+}
