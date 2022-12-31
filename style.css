@@ -348,6 +348,14 @@ align-items: center;
 .footer ul{
   list-style-type: none;
 }
+.footer button{
+background-color: darkorange;
+padding: 11px 17px;
+border: none;
+color: white;
+border-radius: 8px;
+}
+
 .bottom{
   display: flex;
   justify-content: space-between;
