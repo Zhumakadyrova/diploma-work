@@ -339,6 +339,8 @@ align-items: center;
   color: gray;
 }
 .footer {
+  margin-top: 110px;
+  height: 500px;
   padding-top: 100px;
   display:  flex;
   justify-content: space-between;
