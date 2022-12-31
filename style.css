@@ -355,3 +355,6 @@ align-items: center;
 .bottom img{
   margin: 5px;
 }
+.bottom p{
+  color: gray;
+}
