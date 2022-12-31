@@ -329,3 +329,12 @@ align-items: center;
   padding: 8px 15px;
   border-radius: 18px;
 }
+.section-10 h1{
+  margin-left: 30px;
+}
+.section-10 p.view{
+  display: flex;
+  justify-content: space-between;
+
+  color: gray;
+}
