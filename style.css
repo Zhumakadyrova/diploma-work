@@ -338,3 +338,8 @@ align-items: center;
 
   color: gray;
 }
+.footer {
+  margin-top: 50px;
+  display:  flex;
+  justify-content: space-between;
+}
