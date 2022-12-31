@@ -355,6 +355,12 @@ border: none;
 color: white;
 border-radius: 8px;
 }
+.footer input{
+  padding: 11px 17px;
+  border: 1px solid gainsboro;
+  color: rgb(133, 122, 122);
+  border-radius: 8px;
+}
 
 .bottom{
   display: flex;
