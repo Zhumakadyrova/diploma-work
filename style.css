@@ -334,7 +334,7 @@ margin: 2px 430px;
 }
 .section-8 p{
   text-align: center;
-  margin: 10px 450px;
+  margin: 0px 450px;
   color: gray;
 }
 .row.three .col-4{
@@ -345,13 +345,21 @@ margin: 2px 430px;
   padding-left: 45px;
   border-radius: 8px;
 }
+.row.three .col-4 a{
+  color: black;
+  text-decoration: none;
+}
 .row.four .col-4{
   background-color: white;
-  margin-bottom: 18px;
+  margin: 8px;
   padding-left: 45px;
   height: 150px;
   width: 400px;
   border-radius: 8px;
+}
+.row.four .col-4 a{
+  color: black;
+  text-decoration: none;
 }
 .button-5 button{
   display: inline-block;
