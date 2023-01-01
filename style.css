@@ -214,6 +214,9 @@ margin: 2px 430px;
   max-width: 700px;
   padding: 120px 270px 1px 50px;
 }
+.option-1{
+  height: 20px;
+}
 .option-1 .button-1 {
   border-radius: 12px;
   border: 1px solid rgba(128, 128, 128, 0.31);
@@ -225,11 +228,13 @@ margin: 2px 430px;
   box-shadow: 0 0 2px;
   border-radius: 5px;
 }
+.option-1 h1{
+  font-size: 40px;
+}
 .option-1 p {
   color: gray;
 }
-.option-1
-.button-3 {
+.option-1 .button-3 {
   padding: 40px;
 }
 .option img{
