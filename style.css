@@ -307,6 +307,14 @@ margin: 2px 430px;
   align-items: center;
   margin-left: 350px;
 }
+.card ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: left
+}
+.card ul li img{
+  margin-right: 8px; 
+}
 .section-8 h1{
   text-align: center;
 }
