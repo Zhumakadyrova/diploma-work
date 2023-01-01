@@ -265,6 +265,13 @@ margin: 2px 430px;
   padding: 8px;
   border-radius: 8px;
 }
+.option .explore{
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid rgba(128, 128, 128, 0.485);
+  margin-left: 10px;
+}
 .row.one .card{
   margin: 8px;
   background-color: white;
