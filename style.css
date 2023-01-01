@@ -217,11 +217,9 @@ margin: 2px 430px;
 .option-1 .button-1 {
   border-radius: 12px;
   border: 1px solid rgba(128, 128, 128, 0.31);
-  margin-left: 0px;
 }
 .option-1 .button-2 {
   padding: 12px;
-  margin: 5px 20px;
   background-color: white;
   border: 1px solid gainsboro;
   box-shadow: 0 0 2px;
