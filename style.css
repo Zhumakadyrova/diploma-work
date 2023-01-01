@@ -287,6 +287,10 @@ margin: 2px 430px;
   background-color: rgba(128, 128, 128, 0.352);
   border: none;
 }
+.flash-cards h1{
+  text-align: center;
+  margin-bottom: 60px;
+}
 
  .flash-cards{
   position: relative;
