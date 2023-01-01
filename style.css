@@ -279,13 +279,15 @@ margin: 2px 430px;
   margin: 8px;
   background-color: white;
 }
-.row.two .card{
-  background-color: white;
-  margin: 8px;
+.flash-cards .proper{
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
 }
 
  .flash-cards{
   position: relative;
+  padding-top: 50px;
 }
 .headline .frame4{
   position: absolute;
