@@ -106,16 +106,16 @@ nav ul li a {
   height: 700px;
   width: 700px;
 }
-.look img{
-  height: 10px;
-  width: 20px;
-}
 .section input{
   margin-left: 130px ;
-  padding: 8px 30px 8px 8px;
+  padding: 8px 30px 8px 28px;
   color: gray;
   border: 1px solid rgba(128, 128, 128, 0.222);
   border-radius: 8px;
+  background-image: url(./icon/look.png);
+  background-position: 7px 7px;
+  background-repeat: no-repeat;
+
 }
 .section .button-2{
   background-color: rgba(227, 70, 13, 0.9);
