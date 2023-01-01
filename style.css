@@ -109,7 +109,7 @@ nav ul li a {
 }
 .section input{
   margin-left: 130px ;
-  padding: 8px 30px 8px 28px;
+  padding: 10px 30px 8px 28px;
   color: gray;
   border: 1px solid rgba(128, 128, 128, 0.222);
   border-radius: 8px;
@@ -119,10 +119,12 @@ nav ul li a {
 
 }
 .section .button-2{
-  background-color: rgba(227, 70, 13, 0.9);
+  margin-left: 8px;
+  background-color: rgba(243, 67, 8, 0.815);
   border: none;
   color: white;
-  padding: 8px 20px ;
+  padding: 10px 20px ;
+  border-radius: 8px;
 }
 
 .back{
