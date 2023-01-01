@@ -241,6 +241,21 @@ margin: 2px 430px;
   height: 20px;
   width: 20px;
 }
+.option{
+  margin: 45px;
+}
+.option button{
+  padding: 7px 10px;
+  background-color: rgba(128, 128, 128, 0.521);
+  border-radius: 15px;
+  border: none;
+}
+.option p{
+  color: gray;
+}
+.option .col-6{
+  padding: 20px 80px;
+}
 .row.one .card{
   margin: 8px;
   background-color: white;
