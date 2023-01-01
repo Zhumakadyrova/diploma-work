@@ -257,6 +257,13 @@ margin: 2px 430px;
   width: 30%;
   margin: 30px;
 }
+.option img{
+  height: 40px;
+  width: 35px;
+  background-color: #FAE8E1;
+  padding: 8px;
+  border-radius: 8px;
+}
 .row.one .card{
   margin: 8px;
   background-color: white;
