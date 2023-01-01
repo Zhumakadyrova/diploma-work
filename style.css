@@ -141,7 +141,8 @@ align-items: center;
 
 .section-4 nav .paragraph {
   display: inline-block;
-  padding-right: 500px;
+  padding-right: 800px;
+  margin-left: 8px;
 }
 .section-4 nav ul a {
   background-color: white;
