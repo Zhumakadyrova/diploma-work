@@ -282,7 +282,10 @@ margin: 2px 430px;
 .flash-cards .proper{
   margin: 15px auto;
   display: flex;
-  justify-content: center;
+  border-radius: 14px;
+  padding: 6px 10px;
+  background-color: rgba(128, 128, 128, 0.352);
+  border: none;
 }
 
  .flash-cards{
