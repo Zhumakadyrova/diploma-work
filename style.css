@@ -210,10 +210,9 @@ margin: 2px 430px;
   display: flex;
   justify-content: center;
 }
-.option-1,
-.part-1 {
-  padding-top: 150px;
+.col-6 .option-1 {
   max-width: 700px;
+  padding: 120px 270px 1px 50px;
 }
 .option-1 .button-1 {
   border-radius: 12px;
