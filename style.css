@@ -95,11 +95,10 @@ nav ul li a {
 .section h1{
   font-weight: 500;
   font-size: 50px;
-  padding: 0px 120px;
+  padding: 0px 130px;
 }
 .section p{
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 190px 0 130px;
   color: gray;
   font-size: 20px;
 }
