@@ -306,19 +306,21 @@ margin: 2px 430px;
   top: 0;
   right: 0;
 } 
-
-.flash-cards .button2{
-  display: inline-block;
-  margin-left: 450px;
+.flex{
+  display: flex;
+  justify-content: center;
+  margin: 30px 25px;
+  align-items: center;
+}
+.flex .button2{
+  
   background-color: white;
   padding: 8px 12px;
   border: 0.5px solid rgba(128, 128, 128, 0.462);
   border-radius: 8px;
   margin-right: 20px;
 }
-.flash-cards a{
-  margin-left: 40px;
-}
+
 .card ul{
   display: flex;
   list-style-type: none;
