@@ -307,8 +307,9 @@ margin: 2px 430px;
   right: 0;
 } 
 
-.flash-cards button{
+.flash-cards .button2{
   display: inline-block;
+  background-color: white;
   align-items: center;
   margin-left: 350px;
 }
