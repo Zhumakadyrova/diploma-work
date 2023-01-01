@@ -446,12 +446,19 @@ margin: 2px 430px;
   margin-left: 40px;
 }
 .section-10 ul{
-  margin: 10px 300px;
-
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
-
   color: gray;
+}
+.row.six .col-4{
+  margin: 22px;
+  border-radius: 12px;
+  padding: 15px;
+}
+
+ .paragraph2{
+  padding-right: 200px;
 }
 .footer {
   margin-top: 110px;
