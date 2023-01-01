@@ -275,8 +275,13 @@ margin: 2px 430px;
   text-decoration: none;
   color: black;
 }
+
+.flash-cards h1{
+  text-align: center;
+  margin-bottom: 60px;
+}
 .row.one .card{
-  margin: 8px;
+  margin: 10px;
   background-color: white;
 }
 .flash-cards .proper{
@@ -287,9 +292,9 @@ margin: 2px 430px;
   background-color: rgba(128, 128, 128, 0.352);
   border: none;
 }
-.flash-cards h1{
-  text-align: center;
-  margin-bottom: 60px;
+.row.two .card{
+  background-color: white;
+  margin: 10px;
 }
 
  .flash-cards{
