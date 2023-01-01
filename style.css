@@ -256,7 +256,7 @@ margin: 2px 430px;
 }
 .option .col-6{
   width: 40%;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 .option img{
   height: 40px;
@@ -270,7 +270,11 @@ margin: 2px 430px;
   background-color: white;
   border-radius: 5px;
   border: 2px solid rgba(128, 128, 128, 0.485);
-  margin-left: 10px;
+  margin-right: 20px;
+}
+.option a{
+  text-decoration: none;
+  color: black;
 }
 .row.one .card{
   margin: 8px;
