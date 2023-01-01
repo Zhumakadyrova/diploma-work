@@ -242,7 +242,7 @@ margin: 2px 430px;
   width: 20px;
 }
 .option{
-  margin: 45px;
+  margin: 45px 170px 0px 45px;
 }
 .option button{
   padding: 7px 10px;
@@ -252,10 +252,11 @@ margin: 2px 430px;
 }
 .option p{
   color: gray;
+  margin-bottom: 40px;
 }
 .option .col-6{
-  width: 30%;
-  margin: 30px;
+  width: 40%;
+  margin-left: 20px;
 }
 .option img{
   height: 40px;
