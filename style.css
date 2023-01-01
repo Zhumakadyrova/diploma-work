@@ -165,6 +165,7 @@ margin: 2px 430px;
   justify-content: center;
   margin: 40px 10px;
 }
+
 .section-6 img{
   height: 50px;
   width: 50px;
@@ -173,7 +174,8 @@ margin: 2px 430px;
   border-radius: 7px;
 }
 .section-6 p {
-  max-width: 80%;
+  margin: 8px 30px;
+  color: gray;
 }
 .section-6 .part-1 {
   display: inline;
