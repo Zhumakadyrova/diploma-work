@@ -313,8 +313,9 @@ margin: 2px 430px;
   padding: 8px 12px;
   align-items: center;
   margin-left: 350px;
-  border: 0.5px solid gray;
+  border: 0.5px solid rgba(128, 128, 128, 0.462);
   border-radius: 8px;
+  margin-right: 20px;
 }
 .card ul{
   display: flex;
