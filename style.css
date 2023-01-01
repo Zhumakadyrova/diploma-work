@@ -91,6 +91,7 @@ nav ul li a {
   padding: 8px;
   border-radius: 15px;
   margin: 150px 50px 0 130px ;
+  background-color: rgba(128, 128, 128, 0.325);
 }
 .section h1{
   font-weight: 500;
