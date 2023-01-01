@@ -242,7 +242,7 @@ margin: 2px 430px;
   width: 20px;
 }
 .option{
-  margin: 45px 170px 0px 45px;
+  margin: 45px 170px 0px 65px;
 }
 .option button{
   padding: 7px 10px;
@@ -255,8 +255,7 @@ margin: 2px 430px;
   margin-bottom: 40px;
 }
 .option .col-6{
-  width: 40%;
-  margin-right: 20px;
+  margin-right: 35px;
 }
 .option img{
   height: 40px;
