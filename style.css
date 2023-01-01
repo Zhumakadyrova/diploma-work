@@ -138,7 +138,9 @@ border-radius: 12px;
 display: inline;
 align-items: center;
 }
-
+.section-4 nav{ display: flex;
+justify-content: center;
+align-items:center;}
 .section-4 .paragraph {
   display: inline-block;
   padding-right: 500px;
@@ -152,6 +154,9 @@ align-items: center;
 } 
 .section-5 {
   text-align: center;
+}
+.section-5 p{
+color: gray;
 }
 .section-6 {
   text-align: center;
