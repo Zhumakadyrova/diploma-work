@@ -383,10 +383,13 @@ margin: 2px 430px;
   align-items: center;
   background-color: rgb(104, 101, 101);
   border-radius: 12px;
+  position: absolute;
 }
 .container.container-1{
+  width: 400px;
+  height: 200px;
+  position: relative;
   margin:  auto 150px; 
-  position: absolute;
   top: 50%;
 
 }
