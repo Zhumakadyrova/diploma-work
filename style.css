@@ -391,11 +391,13 @@ margin: 2px 430px;
 
 }
 .background1{
+  width: 100%;
   background-color: gray;
   height: 200px;
   display: block;
 }
 .background{
+  width: 100%;
   display: block;
   height: 200px;
   background-color: white;
