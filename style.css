@@ -432,6 +432,31 @@ margin: 2px 430px;
   padding: 9px;
   color: white;
 }
+#container{
+  width: 400px;
+  height: 200px;
+  background: blue;
+  position: relative;
+}
+div.green{
+  background: green;
+  display: block;
+  height: 100px;
+}
+div.red{
+  background: red;
+  display: block;
+  height: 100px;
+}
+div.box{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+
 
 .section-9 h2{
   text-align: center;
