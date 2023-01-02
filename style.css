@@ -441,9 +441,10 @@ div.box{
   border-radius: 12px;
   padding: 18px;
 }
-.col-4 img{
+.col-4 .first{
   float: left;
   padding-right: 11px;
+  background-color: white;
 }
 .section-10{
   background-color: rgba(128, 128, 128, 0.084);
