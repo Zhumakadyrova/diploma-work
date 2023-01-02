@@ -439,6 +439,9 @@ div.box{
   font-weight: 700;
   font-size: 16px;
 }
+.col-4 .range{
+  color:gray;
+}
 .row.five .col-4{
   margin: 20px;
   border: 1px solid rgba(128, 128, 128, 0.462);
@@ -469,6 +472,12 @@ div.box{
   display: flex;
   justify-content: space-between;
   color: gray;
+}
+.section-10 .view{
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid rgba(128, 128, 128, 0.332);
+  box-shadow: 0 2px 0 gainsboro;
 }
 .row.six .col-4{
   margin: 22px;
