@@ -384,6 +384,8 @@ margin: 2px 430px;
   background-color: rgb(104, 101, 101);
   border-radius: 12px;
   position: absolute;
+  transform: translateY(-50%);
+
 }
 .container.container-1{
   width: 400px;
@@ -405,26 +407,26 @@ margin: 2px 430px;
   height: 200px;
   background-color: white;
 }
-.gray img{
+.box img{
   display: inline-block;
   align-items: center;
 }
-.gray h2{
+.box h2{
   text-align: center;
   color: white;
 }
-.gray p{
+.box p{
   text-align: center;
   margin: 0 80px;
   color:white;
 }
-.gray img{
+.box img{
   margin: 40px 550px;
   height: 70px;
   background-color: white;
   border-radius: 8px;
   }
-.gray button{
+.box button{
   margin: 30px 520px;
   background-color: rgb(236, 100, 16);
   border-radius: 5px;
@@ -433,27 +435,27 @@ margin: 2px 430px;
   color: white;
 }
 #container{
-  width: 400px;
+  width: 100%;
   height: 200px;
-  background: blue;
+  background: rgba(128, 128, 128, 0.441);
   position: relative;
 }
 div.green{
-  background: green;
+  background:gray
   display: block;
   height: 100px;
 }
 div.red{
-  background: red;
+  background: white;
   display: block;
   height: 100px;
 }
 div.box{
-  width: 100px;
+  width: 80%;
+  margin: 0 150px 0 150px;
   height: 100px;
-  background: yellow;
+  background: gray;
   position: absolute;
-  right: 20px;
   top: 50%;
   transform: translateY(-50%);
 
