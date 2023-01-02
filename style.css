@@ -473,6 +473,9 @@ div.box{
   justify-content: space-between;
   color: gray;
 }
+ul .paragraph2{
+  margin-right: 700px;
+}
 .section-10 .view{
   background-color: white;
   border-radius: 3px;
@@ -485,9 +488,6 @@ div.box{
   padding: 15px;
 }
 
- .paragraph2{
-  padding-right: 200px;
-}
 .footer {
   margin-top: 110px;
   height: 500px;
