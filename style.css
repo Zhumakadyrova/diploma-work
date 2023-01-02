@@ -420,6 +420,7 @@ div.red{
 div.box{
   width: 80%;
   margin: 0 150px 0 150px;
+  border-radius: 12px;
   background: gray;
   position: absolute;
   top: 50%;
