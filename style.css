@@ -490,15 +490,21 @@ ul .paragraph2{
 .col-4 .trend{
   background-color: #FAE8E1;
 }
+.col-4 .link1.link2{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
 .col-4 .link1{
   text-decoration: none;
   color: black;
-  font-weight: 500;
 }
-col-4 .card {
+footer {
   margin-top: 110px;
   height: 500px;
   padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
   
 }
 .footer ul{
