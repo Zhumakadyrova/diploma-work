@@ -385,7 +385,20 @@ margin: 2px 430px;
   border-radius: 12px;
 }
 .container.container-1{
-  margin:  0 250px;
+  margin:  auto 150px; 
+  position: absolute;
+  top: 50%;
+
+}
+.background1{
+  background-color: gray;
+  height: 200px;
+  display: block;
+}
+.background{
+  display: block;
+  height: 200px;
+  background-color: white;
 }
 .gray img{
   display: inline-block;
@@ -414,6 +427,7 @@ margin: 2px 430px;
   padding: 9px;
   color: white;
 }
+
 .section-9 h2{
   text-align: center;
 }
