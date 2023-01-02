@@ -485,11 +485,14 @@ ul .paragraph2{
 .row.six .col-4{
   margin: 22px;
   border-radius: 12px;
-  padding: 15px;
+  padding: 8px;
   background-color: white;
 }
 .col-4 .trend{
   background-color: #FAE8E1;
+}
+.col-4 .paragraph4{
+  color: gray;
 }
 .col-4 .link1.link2{
   text-decoration: none;
@@ -500,7 +503,7 @@ ul .paragraph2{
   text-decoration: none;
   color: black;
 }
-footer {
+.footer {
   margin-top: 110px;
   height: 500px;
   padding-top: 100px;
