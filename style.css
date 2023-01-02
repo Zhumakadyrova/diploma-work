@@ -405,17 +405,15 @@ margin: 2px 430px;
 }
 #container{
   width: 100%;
-  height: 200px;
   background: rgba(128, 128, 128, 0.441);
   position: relative;
 }
 div.green{
-  display: block;
   height: 100%;
 }
 div.red{
   background: white;
-  display: block;
+
   height: 100%;
 }
 div.box{
@@ -426,7 +424,9 @@ div.box{
   top: 50%;
   transform: translateY(-50%);
 }
-
+.section-9{
+  margin-top: 250px;
+}
 .section-9 h2{
   text-align: center;
 }
