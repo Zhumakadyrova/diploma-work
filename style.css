@@ -487,6 +487,9 @@ ul .paragraph2{
   border-radius: 12px;
   padding: 15px;
 }
+.col-4 .trend{
+  background-color: #FAE8E1;
+}
 
 .footer {
   margin-top: 110px;
