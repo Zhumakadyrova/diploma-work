@@ -474,10 +474,14 @@ div.box{
   justify-content: space-between;
   color: gray;
 }
-ul .paragraph2{
-  margin-right: 700px;
+.col-7 p{
+  margin-right: 70px;
+  color: gray;
+  width: 60%;
 }
-.section-10 .view{
+.col-5 .view{
+  margin-top: 8px;
+  padding: 10px 18px;
   background-color: white;
   border-radius: 3px;
   border: 1px solid rgba(128, 128, 128, 0.332);
