@@ -455,18 +455,19 @@ div.box{
   background-color: white;
 }
 .section-10{
+  width: 100%;
   background-color: rgba(128, 128, 128, 0.084);
   height: 1200px;
 }
 .section-10 button{
-  margin: 80px 0px 20px 40px;
+  margin: 50px 0px 20px 100px;
   background-color: rgba(128, 128, 128, 0.57);
   border: none;
-  padding: 8px 15px;
+  padding: 9px 15px;
   border-radius: 18px;
 }
 .section-10 h1{
-  margin-left: 40px;
+  margin-left: 100px;
 }
 .section-10 ul{
   list-style-type: none;
