@@ -47,19 +47,22 @@ nav ul li a {
 .button-first {
   margin: 20px 15px;
   border-radius: 7px;
-  padding: 7px 25px;
   border: 1px solid rgba(128, 128, 128, 0.197);
   height: 20px;
-  padding: 13px 20px 23px 20px;
+  padding: 15px 20px 23px 20px;
 }
 .button-1 {
-  padding: 6px;
   border-radius: 8px;
 }
 .button-first.b1 {
   color: black;
   background-color: white;
   width: 110px;
+  text-align: center;
+}
+.button-first.b1 img{
+  size: 25px;
+  padding-left: none;
 }
 .button-first.b2 {
   color: white;
