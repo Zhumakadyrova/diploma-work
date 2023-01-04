@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Alkalami', serif;
-  font-family: 'Fredoka One', cursive;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Patrick Hand', cursive;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Alkalami", serif;
+  font-family: "Fredoka One", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Patrick Hand", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .first {
   background-color: rgba(76, 106, 81, 0.816);
@@ -60,7 +60,7 @@ nav ul li a {
   width: 110px;
   text-align: center;
 }
-.button-first.b1 img{
+.button-first.b1 img {
   size: 35px;
   padding-left: 10px;
 }
@@ -72,51 +72,51 @@ nav ul li a {
   border: 1px solid orange;
 }
 
-.container{
+.container {
   margin: 0 0;
 }
-.section .frame-1{
+.section .frame-1 {
   height: 150px;
   width: 150px;
   position: absolute;
   top: 0;
   left: 0;
 }
-.section .frame-2{
+.section .frame-2 {
   height: 150px;
   width: 150px;
   position: absolute;
   bottom: 0;
   right: 0;
 }
-.section{
+.section {
   background-color: rgba(128, 128, 128, 0.09);
   height: 700px;
   position: relative;
 }
-.section .button-1{
+.section .button-1 {
   border: none;
   padding: 8px;
   border-radius: 15px;
-  margin: 150px 50px 0 130px ;
+  margin: 150px 50px 0 130px;
   background-color: rgba(128, 128, 128, 0.325);
 }
-.section h1{
+.section h1 {
   font-weight: 500;
   font-size: 50px;
   padding: 0px 130px;
 }
-.section p{
+.section p {
   padding: 0 190px 0 130px;
   color: gray;
   font-size: 20px;
 }
-.col-6 img{
+.col-6 img {
   height: 700px;
   width: 700px;
 }
-.section input{
-  margin-left: 130px ;
+.section input {
+  margin-left: 130px;
   padding: 10px 30px 10px 40px;
   color: gray;
   border: 1px solid rgba(128, 128, 128, 0.222);
@@ -124,33 +124,34 @@ nav ul li a {
   background-image: url(./icon/look.png);
   background-position: 7px 7px;
   background-repeat: no-repeat;
-
 }
 
-.section .button-2{
+.section .button-2 {
   margin-left: 8px;
-  background-color: #CF6F49;
+  background-color: #cf6f49;
   border: none;
   color: white;
-  padding: 10px 20px ;
+  padding: 10px 20px;
   border-radius: 8px;
 }
 
-.back{
+.back {
   background-color: rgba(128, 128, 128, 0.158);
   padding-bottom: 250px;
 }
 
-.flash-cards .headline button{
-padding: 10px;
-border: none;
-border-radius: 12px;
-display: inline;
-align-items: center;
+.flash-cards .headline button {
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  display: inline;
+  align-items: center;
 }
-.section-4 nav{ display: flex;
-justify-content: center;
-align-items:center;}
+.section-4 nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .section-4 .paragraph {
   display: inline-block;
   padding-right: 500px;
@@ -161,13 +162,13 @@ align-items:center;}
   color: gray;
   font-weight: 600;
   list-style-type: none;
-} 
+}
 .section-5 {
   text-align: center;
 }
-.section-5 p{
-color: gray;
-margin: 2px 430px;
+.section-5 p {
+  color: gray;
+  margin: 2px 430px;
 }
 .section-6 {
   text-align: center;
@@ -176,10 +177,10 @@ margin: 2px 430px;
   margin: 40px 10px;
 }
 
-.section-6 img{
+.section-6 img {
   height: 50px;
   width: 50px;
-  background-color: #FAE8E1;
+  background-color: #fae8e1;
   padding: 10px;
   border-radius: 7px;
 }
@@ -224,7 +225,7 @@ margin: 2px 430px;
   max-width: 700px;
   padding: 120px 270px 1px 50px;
 }
-.option-1{
+.option-1 {
   height: 20px;
 }
 .option-1 .button-1 {
@@ -238,7 +239,7 @@ margin: 2px 430px;
   box-shadow: 0 0 2px;
   border-radius: 5px;
 }
-.option-1 h1{
+.option-1 h1 {
   font-size: 40px;
 }
 .option-1 p {
@@ -247,54 +248,54 @@ margin: 2px 430px;
 .option-1 .button-3 {
   padding: 40px;
 }
-.option img{
+.option img {
   height: 20px;
   width: 20px;
 }
-.option{
+.option {
   margin: 45px 170px 0px 65px;
 }
-.option button{
+.option button {
   padding: 7px 10px;
   background-color: rgba(128, 128, 128, 0.521);
   border-radius: 15px;
   border: none;
 }
-.option p{
+.option p {
   color: gray;
   margin-bottom: 40px;
 }
-.option .col-6{
+.option .col-6 {
   margin-right: 55px;
 }
-.option img{
+.option img {
   height: 50px;
   width: 45px;
-  background-color: #FAE8E1;
+  background-color: #fae8e1;
   padding: 8px;
   border-radius: 8px;
 }
-.option .explore{
+.option .explore {
   padding: 12px;
   background-color: white;
   border-radius: 5px;
   border: 2px solid rgba(128, 128, 128, 0.485);
   margin-right: 20px;
 }
-.option a{
+.option a {
   text-decoration: none;
   color: black;
 }
 
-.flash-cards h1{
+.flash-cards h1 {
   text-align: center;
   margin-bottom: 60px;
 }
-.row.one .card{
+.row.one .card {
   margin: 10px;
   background-color: white;
 }
-.flash-cards .proper{
+.flash-cards .proper {
   margin: 15px auto;
   display: flex;
   border-radius: 14px;
@@ -302,28 +303,27 @@ margin: 2px 430px;
   background-color: rgba(128, 128, 128, 0.352);
   border: none;
 }
-.row.two .card{
+.row.two .card {
   background-color: white;
   margin: 10px;
 }
 
- .flash-cards{
+.flash-cards {
   position: relative;
   padding-top: 50px;
 }
-.headline .frame4{
+.headline .frame4 {
   position: absolute;
   top: 0;
   right: 0;
-} 
-.flex{
+}
+.flex {
   display: flex;
   justify-content: center;
   margin: 30px 25px;
   align-items: center;
 }
-.flex .button2{
-  
+.flex .button2 {
   background-color: white;
   padding: 8px 12px;
   border: 0.5px solid rgba(128, 128, 128, 0.462);
@@ -331,23 +331,23 @@ margin: 2px 430px;
   margin-right: 20px;
 }
 
-.card ul{
+.card ul {
   display: flex;
   list-style-type: none;
-  justify-content: left
+  justify-content: left;
 }
-.card ul li img{
-  margin-right: 8px; 
+.card ul li img {
+  margin-right: 8px;
 }
-.section-8 h1{
+.section-8 h1 {
   text-align: center;
 }
-.section-8 p{
+.section-8 p {
   text-align: center;
   margin: 0px 450px;
   color: gray;
 }
-.row.three .col-4{
+.row.three .col-4 {
   background-color: white;
   height: 150px;
   width: 400px;
@@ -355,11 +355,11 @@ margin: 2px 430px;
   padding-left: 45px;
   border-radius: 8px;
 }
-.row.three .col-4 a{
+.row.three .col-4 a {
   color: black;
   text-decoration: none;
 }
-.row.four .col-4{
+.row.four .col-4 {
   background-color: white;
   margin: 8px;
   padding-left: 45px;
@@ -367,17 +367,17 @@ margin: 2px 430px;
   width: 400px;
   border-radius: 8px;
 }
-.row.four .col-4 a{
+.row.four .col-4 a {
   color: black;
   text-decoration: none;
 }
-.flex1{
+.flex1 {
   display: flex;
   justify-content: center;
   margin: 30px 25px 20px 00;
   align-items: center;
 }
-.flex1 button{
+.flex1 button {
   background-color: white;
   padding: 8px 12px;
   border: 0.5px solid rgba(128, 128, 128, 0.462);
@@ -385,27 +385,26 @@ margin: 2px 430px;
   margin-right: 20px;
 }
 
-
-#container .box img{
+#container .box img {
   display: inline-block;
   align-items: center;
 }
-#container .box h2{
+#container .box h2 {
   text-align: center;
   color: white;
 }
-.box p{
+.box p {
   text-align: center;
   margin: 0 80px;
-  color:white;
+  color: white;
 }
-.box img{
+.box img {
   margin: 40px 550px;
   height: 70px;
   background-color: white;
   border-radius: 8px;
-  }
-.box button{
+}
+.box button {
   margin: 30px 520px;
   background-color: rgb(236, 100, 16);
   border-radius: 5px;
@@ -413,20 +412,20 @@ margin: 2px 430px;
   padding: 9px;
   color: white;
 }
-#container{
+#container {
   width: 100%;
   background: rgba(128, 128, 128, 0.441);
   position: relative;
 }
-div.green{
+div.green {
   height: 100%;
 }
-div.red{
+div.red {
   background: white;
 
   height: 100%;
 }
-div.box{
+div.box {
   width: 80%;
   margin: 0 150px 0 150px;
   border-radius: 12px;
@@ -435,61 +434,61 @@ div.box{
   top: 50%;
   transform: translateY(-50%);
 }
-.section-9{
+.section-9 {
   margin-top: 250px;
 }
-.section-9 h2{
+.section-9 h2 {
   text-align: center;
 }
-.section-9 p{
+.section-9 p {
   text-align: center;
   color: gray;
 }
-.col-4 .name{
+.col-4 .name {
   font-weight: 700;
   font-size: 16px;
 }
-.col-4 .range{
-  color:gray;
+.col-4 .range {
+  color: gray;
 }
-.row.five .col-4{
+.row.five .col-4 {
   margin: 20px;
   border: 1px solid rgba(128, 128, 128, 0.462);
   border-radius: 12px;
   padding: 18px;
 }
-.col-4 .first{
+.col-4 .first {
   float: left;
   padding-right: 11px;
   background-color: white;
 }
-.section-10{
+.section-10 {
   width: 100%;
   background-color: rgba(128, 128, 128, 0.084);
   height: 1200px;
 }
-.section-10 button{
+.section-10 button {
   margin: 50px 0px 20px 100px;
   background-color: rgba(128, 128, 128, 0.57);
   border: none;
   padding: 9px 15px;
   border-radius: 18px;
 }
-.section-10 h1{
+.section-10 h1 {
   margin-left: 100px;
 }
-.section-10 ul{
+.section-10 ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   color: gray;
 }
-.col-7 p{
+.col-7 p {
   margin-right: 70px;
   color: gray;
   width: 60%;
 }
-.col-5 .view{
+.col-5 .view {
   margin-top: 15px;
   padding: 10px 18px;
   background-color: white;
@@ -497,24 +496,24 @@ div.box{
   border: 1px solid rgba(128, 128, 128, 0.332);
   box-shadow: 0 2px 0 gainsboro;
 }
-.row.six .col-4{
+.row.six .col-4 {
   margin: 22px;
   border-radius: 12px;
   padding: 8px;
   background-color: white;
 }
-.col-4 .trend{
-  background-color: #FAE8E1;
+.col-4 .trend {
+  background-color: #fae8e1;
 }
-.col-4 .paragraph4{
+.col-4 .paragraph4 {
   color: gray;
 }
-.col-4 .link1.link2{
+.col-4 .link1.link2 {
   text-decoration: none;
   color: black;
   font-weight: 700;
 }
-.col-4 .link1{
+.col-4 .link1 {
   text-decoration: none;
   color: black;
 }
@@ -524,40 +523,39 @@ div.box{
   padding-top: 100px;
   display: flex;
   justify-content: space-between;
-  
 }
-.footer ul{
+.footer ul {
   list-style-type: none;
 }
-.footer button{
-background-color: darkorange;
-padding: 11px 17px;
-border: none;
-color: white;
-border-radius: 8px;
+.footer button {
+  background-color: darkorange;
+  padding: 11px 17px;
+  border: none;
+  color: white;
+  border-radius: 8px;
 }
-.footer input{
+.footer input {
   padding: 11px 17px;
   border: 1px solid gainsboro;
   color: rgb(133, 122, 122);
   border-radius: 8px;
 }
 
-.bottom{
+.bottom {
   display: flex;
   justify-content: space-between;
 }
-.bottom img{
+.bottom img {
   margin: 5px;
 }
-.bottom p{
+.bottom p {
   color: gray;
 }
-footer .footer2{
+footer .footer2 {
   display: flex;
   justify-content: space-between;
-  background-color: #F5F5F5;;
+  background-color: #f5f5f5;
 }
-.footer2 img{
+.footer2 img {
   margin: 8px;
 }
