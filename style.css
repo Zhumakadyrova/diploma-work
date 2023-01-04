@@ -505,15 +505,18 @@ div.box {
   height: 1200px;
 }
 .section-10 button {
-  margin: 50px 0px 20px 0px;
+  margin: 10px 0px 20px 0px;
   background-color: rgba(128, 128, 128, 0.57);
   border: none;
   padding: 9px 15px;
   border-radius: 18px;
   float: left;
 }
-.section-10 h1 {
-  margin-left: 100px;
+.section-10 h3 {
+  margin: 10px 0;
+}
+.section-10 p{
+  color: gray;
 }
 .section-10 ul {
   list-style-type: none;
