@@ -259,9 +259,9 @@ nav ul li a {
 .option-1 .button-3 {
   padding: 40px;
 }
-.option img {
-  height: 20px;
-  width: 20px;
+.option .row.zero img {
+  height: 50px;
+  width: 60px;
 }
 .option {
   margin: 45px 170px 0px 65px;
@@ -277,7 +277,7 @@ nav ul li a {
   margin-bottom: 40px;
 }
 .option .col-6 {
-  margin-right: 55px;
+  margin: 0 55px;
 }
 .option img {
   height: 50px;
