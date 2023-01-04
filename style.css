@@ -61,8 +61,8 @@ nav ul li a {
   text-align: center;
 }
 .button-first.b1 img{
-  size: 25px;
-  padding-left: none;
+  size: 35px;
+  padding-left: 10px;
 }
 .button-first.b2 {
   color: white;
