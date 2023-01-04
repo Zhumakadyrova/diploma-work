@@ -308,9 +308,17 @@ nav ul li a {
 }
 .row.one .card-text{
   margin-left: 18px;
+  padding-bottom: 10px;
+}
+.row.one p{
+  color: gray;
 }
 .row.two .card-text{
   margin-left: 18px;
+  padding-bottom: 10px;
+}
+.row.two p{
+  color: gray;
 }
 .flash-cards .proper {
   margin: 15px auto;
