@@ -260,8 +260,8 @@ nav ul li a {
   padding: 40px;
 }
 .option .row.zero img {
-  height: 50px;
-  width: 60px;
+  height: 40px;
+  width: 50px;
 }
 .option {
   margin: 45px 170px 0px 65px;
@@ -277,7 +277,7 @@ nav ul li a {
   margin-bottom: 40px;
 }
 .option .col-6 {
-  margin: 0 55px;
+  margin: 0;
 }
 .option img {
   height: 50px;
@@ -290,7 +290,7 @@ nav ul li a {
   padding: 12px;
   background-color: white;
   border-radius: 5px;
-  border: 2px solid rgba(128, 128, 128, 0.485);
+  border: 1px solid rgba(128, 128, 128, 0.485);
   margin-right: 20px;
 }
 .option a {
