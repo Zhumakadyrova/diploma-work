@@ -76,7 +76,7 @@ nav ul li a {
   margin: 0 0;
 }
 .row .col-6{
-  margin: 120px 0;
+  margin: 90px 0;
 }
 .section .frame-1 {
   height: 150px;
@@ -268,7 +268,7 @@ nav ul li a {
 }
 .option button {
   padding: 7px 10px;
-  background-color: rgba(128, 128, 128, 0.521);
+  background-color:  #E7E8E3;
   border-radius: 15px;
   border: none;
 }
