@@ -236,7 +236,9 @@ nav ul li a {
 }
 .option-1 .button-1 {
   border-radius: 12px;
-  border: 1px solid rgba(128, 128, 128, 0.31);
+  padding: 3px 7px;
+  border: 1px solid #E7E8E3;
+  background-color: #E7E8E3;
 }
 .option-1 .button-2 {
   padding: 12px;
