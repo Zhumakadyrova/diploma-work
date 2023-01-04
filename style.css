@@ -306,6 +306,10 @@ nav ul li a {
   margin: 10px;
   background-color: white;
 }
+.row.one P{
+  color: gray;
+  margin-left: 6px;
+}
 .flash-cards .proper {
   margin: 15px auto;
   display: flex;
