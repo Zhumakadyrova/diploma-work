@@ -355,7 +355,7 @@ nav ul li a {
 }
 .flex .button2 {
   background-color: white;
-  padding: 15px 20px;
+  padding: 11px 15px;
   border: 0.5px solid rgba(128, 128, 128, 0.471);
   border-radius: 3px;
   margin-right: 20px;
@@ -410,8 +410,9 @@ nav ul li a {
 }
 .flex1 button {
   background-color: white;
-  padding: 8px 12px;
-  border: 0.5px solid rgba(128, 128, 128, 0.462);
+  padding: 11px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.188);
+  box-shadow: 0 0 3px rgba(128, 128, 128, 0.188);
   border-radius: 8px;
   margin-right: 20px;
 }
@@ -436,7 +437,7 @@ nav ul li a {
   border-radius: 8px;
 }
 .box button {
-  margin: 30px 520px;
+  margin: 0 550px;
   background-color: rgb(236, 100, 16);
   border-radius: 5px;
   border: none;
