@@ -422,23 +422,25 @@ nav ul li a {
   align-items: center;
 }
 #container .box h2 {
-  text-align: center;
   color: white;
 }
 .box p {
   text-align: center;
-  margin: 0 80px;
+  margin: 0;
   color: white;
 }
 .box img {
-  margin: 40px 550px;
+  margin: 40px;
   height: 70px;
   background-color: white;
   border-radius: 8px;
 }
+.box{
+  text-align: center;
+}
 .box button {
-  margin: 0 550px;
-  background-color: rgb(236, 100, 16);
+  margin: 55px auto;
+  background-color: #CF6F49;
   border-radius: 5px;
   border: none;
   padding: 9px;
