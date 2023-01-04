@@ -311,7 +311,7 @@ nav ul li a {
   display: flex;
   border-radius: 14px;
   padding: 6px 10px;
-  background-color: rgba(128, 128, 128, 0.352);
+  background-color:  #E7E8E3;
   border: none;
 }
 .row.two .card {
