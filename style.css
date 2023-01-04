@@ -2,9 +2,15 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
-  margin: 0;
+  font-family: 'Alkalami', serif;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Patrick Hand', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ultra', serif;
+  font-weight: 400;
 }
 .first {
   background-color: rgba(76, 106, 81, 0.816);
@@ -481,7 +487,7 @@ div.box{
   width: 60%;
 }
 .col-5 .view{
-  margin-top: 8px;
+  margin-top: 15px;
   padding: 10px 18px;
   background-color: white;
   border-radius: 3px;
