@@ -491,6 +491,9 @@ div.box {
   border-radius: 12px;
   padding: 18px;
 }
+.row.five .col-4 p{
+  margin: 12px;
+}
 .col-4 .first {
   float: left;
   padding-right: 11px;
