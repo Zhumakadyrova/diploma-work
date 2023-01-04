@@ -64,6 +64,7 @@ nav ul li a {
   size: 35px;
   padding-left: 10px;
 }
+
 .button-first.b2 {
   color: white;
   background-color: rgb(235, 130, 19);
@@ -127,7 +128,7 @@ nav ul li a {
 }
 .section .button-2{
   margin-left: 8px;
-  background-color: rgba(243, 67, 8, 0.815);
+  background-color: #CF6F49;
   border: none;
   color: white;
   padding: 10px 20px ;
