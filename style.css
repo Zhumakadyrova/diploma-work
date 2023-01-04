@@ -75,6 +75,9 @@ nav ul li a {
 .container {
   margin: 0 0;
 }
+.row .col-6{
+  margin: 120px 0;
+}
 .section .frame-1 {
   height: 150px;
   width: 150px;
