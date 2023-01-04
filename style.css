@@ -147,6 +147,12 @@ nav ul li a {
   display: inline;
   align-items: center;
 }
+.section-4{
+  margin-top: 25px;
+}
+.section-4 nav ul li img{
+  margin: 20px;
+}
 .section-4 nav {
   display: flex;
   justify-content: center;
