@@ -347,7 +347,7 @@ nav ul li a {
   top: 0;
   right: 0;
 }
-.flex {
+.headline .flex {
   display: flex;
   justify-content: center;
   margin: 30px 25px;
