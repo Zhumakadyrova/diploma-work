@@ -510,6 +510,7 @@ div.box {
   border: none;
   padding: 9px 15px;
   border-radius: 18px;
+  float: left;
 }
 .section-10 h1 {
   margin-left: 100px;
