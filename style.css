@@ -332,7 +332,12 @@ nav ul li a {
   background-color: white;
   margin: 10px;
 }
-
+.row.one ul li{
+  margin: 10px;
+}
+.row.two ul li{
+  margin: 10px;
+}
 .flash-cards {
   position: relative;
   padding-top: 50px;
@@ -363,7 +368,7 @@ nav ul li a {
 }
 .card ul li img {
   margin-right: 8px;
-}
+} 
 .section-8 h1 {
   text-align: center;
 }
