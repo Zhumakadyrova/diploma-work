@@ -564,6 +564,9 @@ div.box {
 .footer ul {
   list-style-type: none;
 }
+.footer ul li{
+  padding: 10px;
+}
 .footer button {
   background-color: darkorange;
   padding: 11px 17px;
