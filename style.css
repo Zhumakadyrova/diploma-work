@@ -19,6 +19,33 @@ body {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width:1200px){
+  .first{
+    width: 100%;
+  }
+    
+  }
+  @media screen and (max-width: 998px) {
+    .first{
+      width: 100%;
+
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .first{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 576px){
+    .first{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 300px){
+    .first{
+      width: 100%;
+    }
+  }
 nav ul li .li-1 {
   font-weight: bolder;
   padding: 0 450px 0 100px;
@@ -608,12 +635,23 @@ max-width: 100%;
   
 }
 @media screen and (max-width: 998px) {
- max-width: 85%; 
+ max-width:85%; 
+ .section-10{background-color: aqua;}
 }
 @media screen and (max-width: 768px) {
   max-width: 70%;
+  .nav ul{
+    display: flex;
+    flex-direction: column;
+
+  }
 }
 @media screen and (max-width: 576px){
   max-width: 50%;
+  .nav ul{
+    display: flex;
+    flex-direction: column;
+
+  }
 }
 
