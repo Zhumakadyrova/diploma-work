@@ -604,10 +604,16 @@ footer .footer2 {
   margin: 8px;
 }
 @media screen and (max-width:1200px){
-
+max-width: 100%;
   
 }
 @media screen and (max-width: 998px) {
-  
+ max-width: 85%; 
+}
+@media screen and (max-width: 768px) {
+  max-width: 70%;
+}
+@media screen and (max-width: 576px){
+  max-width: 50%;
 }
 
