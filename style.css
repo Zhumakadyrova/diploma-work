@@ -195,7 +195,37 @@ nav ul li a {
   padding: 10px 20px;
   border-radius: 8px;
 }
-
+@media screen and (max-width:1200px){
+  
+    
+  }
+  @media screen and (max-width: 998px) {
+    
+  }
+  @media screen and (max-width: 768px) {
+    .section .frame-1 {
+      height: 80px;
+      width: 80px;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .section .frame-2 {
+      height: 80px;
+      width: 80px;
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+  @media screen and (max-width: 576px){
+    
+  }
+  @media screen and (max-width: 300px){
+    
+  }
 .back {
   background-color:  #F5F5F2;
   padding-bottom: 250px;
@@ -686,3 +716,19 @@ max-width: 100%;
   }
 }
 
+@media screen and (max-width:1200px){
+  
+    
+}
+@media screen and (max-width: 998px) {
+  
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 576px){
+  
+}
+@media screen and (max-width: 300px){
+  
+}
