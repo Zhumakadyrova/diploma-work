@@ -98,7 +98,38 @@ nav ul li a {
   width: 150px;
   border: 1px solid orange;
 }
+@media screen and (max-width:1200px){
+  .first{
+    width: 100%;
+  }
+    
+  }
+  @media screen and (max-width: 998px) {
+    .first{
+      width: 100%;
 
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .first{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 576px){
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      list-style-type: none;
+      background-color: white;
+      padding: 10px;
+    }
+  }
+  @media screen and (max-width: 300px){
+    .first{
+      width: 100%;
+    }
+  }
 .container {
   margin: 0 0;
 }
