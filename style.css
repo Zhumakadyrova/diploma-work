@@ -245,7 +245,7 @@ nav ul li a {
   @media screen and (max-width: 998px) {
     .section {
       background-color: rgba(128, 128, 128, 0.09);
-      height: 700px;
+      height: 500px;
       position: relative;
     }
     .section .button-1 {
@@ -256,8 +256,8 @@ nav ul li a {
       background-color: rgba(128, 128, 128, 0.325);
     }
     .section h1 {
-      font-weight: 500;
-      font-size: 50px;
+      font-weight: 300;
+      font-size: 40px;
       padding: 0px 130px;
     }
     .section p {
@@ -266,8 +266,8 @@ nav ul li a {
       font-size: 20px;
     }
     .col-6 img {
-      height: 700px;
-      width: 700px;
+      height: 500px;
+      width: 100%;
     }
     .section input {
       margin-left: 130px;
