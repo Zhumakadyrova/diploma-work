@@ -2114,7 +2114,7 @@ footer .footer2 {
 @media screen and (max-width: 998px) {
   
 .footer {
-  margin-top: 100px;
+  margin-top: 300px;
   height: 500px;
   padding-top: 100px;
   display: flex;
@@ -2162,7 +2162,7 @@ footer .footer2 {
 @media screen and (max-width: 768px) {
  
 .footer {
-  margin-top: 10px;
+  margin-top: 700px;
   height: 500px;
   padding-top: 100px;
   display: flex;
@@ -2210,7 +2210,7 @@ footer .footer2 {
 @media screen and (max-width: 576px){
   
 .footer {
-  margin-top: 10px;
+  margin-top: 800px;
   height: 500px;
   padding-top: 100px;
   display: flex;
