@@ -1123,6 +1123,44 @@ nav ul li a {
 }
 @media screen and (max-width:1200px){
   
+.option .row.zero img {
+  height: 30px;
+  width: 20px;
+}
+.option {
+  margin: 45px 170px 0px 65px;
+}
+.option button {
+  padding: 7px 10px;
+  background-color:  #E7E8E3;
+  border-radius: 15px;
+  border: none;
+}
+.option p {
+  color: gray;
+  margin-bottom: 40px;
+}
+.option .col-6 {
+  margin: 0;
+}
+.option img {
+  height: 50px;
+  width: 45px;
+  background-color: #fae8e1;
+  padding: 8px;
+  border-radius: 8px;
+}
+.option .explore {
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.485);
+  margin-right: 20px;
+}
+.option a {
+  text-decoration: none;
+  color: black;
+}
     
 }
 @media screen and (max-width: 998px) {
