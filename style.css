@@ -490,6 +490,53 @@ nav ul li a {
   color: gray;
   margin: 2px 430px;
 }
+
+@media screen and (max-width:1200px){
+  .section-5 {
+    text-align: center;
+  }
+  .section-5 p {
+    color: gray;
+    margin: 2px 400px;
+  }
+    
+}
+@media screen and (max-width: 998px) {
+  .section-5 {
+    text-align: center;
+  }
+  .section-5 p {
+    color: gray;
+    margin: 2px 270px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-5 {
+    text-align: center;
+  }
+  .section-5 p {
+    color: gray;
+    margin: 2px 300px;
+  }
+}
+@media screen and (max-width: 576px){
+  .section-5 {
+    text-align: center;
+  }
+  .section-5 p {
+    color: gray;
+    margin: 2px 200px;
+  }
+}
+@media screen and (max-width: 300px){
+  .section-5 {
+    text-align: center;
+  }
+  .section-5 p {
+    color: gray;
+    margin: 2px 200px;
+  }
+}
 .section-6 {
   text-align: center;
   display: flex;
