@@ -196,6 +196,22 @@ nav ul li a {
   border-radius: 8px;
 }
 @media screen and (max-width:1200px){
+  .section .frame-1 {
+    height: 110px;
+    width: 110px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .section .frame-2 {
+    height: 110px;
+    width: 110px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
   .section {
     background-color: rgba(128, 128, 128, 0.09);
     height: 700px;
@@ -205,26 +221,26 @@ nav ul li a {
     border: none;
     padding: 8px;
     border-radius: 15px;
-    margin: 150px 50px 0 130px;
+    margin: 150px 20px 0 130px;
     background-color: rgba(128, 128, 128, 0.325);
   }
   .section h1 {
-    font-weight: 400;
-    font-size: 40px;
-    padding: 0px 110px;
+    font-weight: 300;
+    font-size: 35px;
+    padding: 0px 70px;
   }
   .section p {
-    padding: 0 190px 0 110px;
+    padding: 0 120px 0 70px;
     color: gray;
     font-size: 20px;
   }
   .col-6 img {
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
   }
   .section input {
-    margin-left: 110px;
-    padding: 10px 20px 10px 40px;
+    margin-left: 70px;
+    padding: 10px 0px 10px 25px;
     color: gray;
     border: 1px solid rgba(128, 128, 128, 0.222);
     border-radius: 8px;
@@ -238,11 +254,27 @@ nav ul li a {
     background-color: #cf6f49;
     border: none;
     color: white;
-    padding: 8px 10px;
+    padding: 8px 8px;
     border-radius: 8px;
   }
   }
   @media screen and (max-width: 998px) {
+    .section .frame-1 {
+      height: 50px;
+      width: 50px;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .section .frame-2 {
+      height: 80px;
+      width: 80px;
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
     .section {
       background-color: rgba(128, 128, 128, 0.09);
       height: 500px;
@@ -323,7 +355,7 @@ nav ul li a {
       position: absolute;
       bottom: 0;
       right: 0;
-    }
+    } 
   }
   @media screen and (max-width: 300px){
     .section {
