@@ -843,7 +843,7 @@ nav ul li a {
     margin: 8px;
   }
 } 
-}
+
 .row {
   margin: 0;
   display: flex;
@@ -1222,30 +1222,7 @@ footer .footer2 {
 .footer2 img {
   margin: 8px;
 }
-@media screen and (max-width:1200px){
-max-width: 100%;
-  
-}
-@media screen and (max-width: 998px) {
- max-width:85%; 
- .section-10{background-color: aqua;}
-}
-@media screen and (max-width: 768px) {
-  max-width: 70%;
-  .nav ul{
-    display: flex;
-    flex-direction: column;
 
-  }
-}
-@media screen and (max-width: 576px){
-  max-width: 50%;
-  .nav ul{
-    display: flex;
-    flex-direction: column;
-
-  }
-}
 
 @media screen and (max-width:1200px){
   
