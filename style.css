@@ -1619,6 +1619,253 @@ nav ul li a {
   border-radius: 8px;
   margin-right: 20px;
 }
+@media screen and (max-width:1200px){
+  
+.section-8 h1 {
+  text-align: center;
+}
+.section-8 p {
+  text-align: center;
+  margin: 30px 400px 55px;
+  color: gray;
+}
+.row.three .col-4 {
+  background-color: white;
+  height: 150px;
+  width: 400px;
+  margin: 8px;
+  padding-left: 45px;
+  border-radius: 8px;
+}
+.row.three .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.row.four .col-4 {
+  background-color: white;
+  margin: 8px;
+  padding-left: 45px;
+  height: 150px;
+  width: 400px;
+  border-radius: 8px;
+}
+.row.four .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 25px 20px 00;
+  align-items: center;
+}
+.flex1 button {
+  background-color: white;
+  padding: 11px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.188);
+  box-shadow: 0 0 3px rgba(128, 128, 128, 0.188);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+    
+}
+@media screen and (max-width: 998px) {
+    
+.section-8 h1 {
+  text-align: center;
+}
+.section-8 p {
+  text-align: center;
+  margin: 30px 400px 55px;
+  color: gray;
+}
+.row.three .col-4 {
+  background-color: white;
+  height: 150px;
+  width: 400px;
+  margin: 8px;
+  padding-left: 45px;
+  border-radius: 8px;
+}
+.row.three .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.row.four .col-4 {
+  background-color: white;
+  margin: 8px;
+  padding-left: 45px;
+  height: 150px;
+  width: 400px;
+  border-radius: 8px;
+}
+.row.four .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 25px 20px 00;
+  align-items: center;
+}
+.flex1 button {
+  background-color: white;
+  padding: 11px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.188);
+  box-shadow: 0 0 3px rgba(128, 128, 128, 0.188);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+}
+@media screen and (max-width: 768px) {
+    
+.section-8 h1 {
+  text-align: center;
+}
+.section-8 p {
+  text-align: center;
+  margin: 30px 400px 55px;
+  color: gray;
+}
+.row.three .col-4 {
+  background-color: white;
+  height: 150px;
+  width: 400px;
+  margin: 8px;
+  padding-left: 45px;
+  border-radius: 8px;
+}
+.row.three .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.row.four .col-4 {
+  background-color: white;
+  margin: 8px;
+  padding-left: 45px;
+  height: 150px;
+  width: 400px;
+  border-radius: 8px;
+}
+.row.four .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 25px 20px 00;
+  align-items: center;
+}
+.flex1 button {
+  background-color: white;
+  padding: 11px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.188);
+  box-shadow: 0 0 3px rgba(128, 128, 128, 0.188);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+}
+@media screen and (max-width: 576px){
+    
+.section-8 h1 {
+  text-align: center;
+}
+.section-8 p {
+  text-align: center;
+  margin: 30px 400px 55px;
+  color: gray;
+}
+.row.three .col-4 {
+  background-color: white;
+  height: 150px;
+  width: 400px;
+  margin: 8px;
+  padding-left: 45px;
+  border-radius: 8px;
+}
+.row.three .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.row.four .col-4 {
+  background-color: white;
+  margin: 8px;
+  padding-left: 45px;
+  height: 150px;
+  width: 400px;
+  border-radius: 8px;
+}
+.row.four .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 25px 20px 00;
+  align-items: center;
+}
+.flex1 button {
+  background-color: white;
+  padding: 11px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.188);
+  box-shadow: 0 0 3px rgba(128, 128, 128, 0.188);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+}
+@media screen and (max-width: 300px){
+    
+.section-8 h1 {
+  text-align: center;
+}
+.section-8 p {
+  text-align: center;
+  margin: 30px 400px 55px;
+  color: gray;
+}
+.row.three .col-4 {
+  background-color: white;
+  height: 150px;
+  width: 400px;
+  margin: 8px;
+  padding-left: 45px;
+  border-radius: 8px;
+}
+.row.three .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.row.four .col-4 {
+  background-color: white;
+  margin: 8px;
+  padding-left: 45px;
+  height: 150px;
+  width: 400px;
+  border-radius: 8px;
+}
+.row.four .col-4 a {
+  color: black;
+  text-decoration: none;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 25px 20px 00;
+  align-items: center;
+}
+.flex1 button {
+  background-color: white;
+  padding: 11px 15px;
+  border: 0.5px solid rgba(128, 128, 128, 0.188);
+  box-shadow: 0 0 3px rgba(128, 128, 128, 0.188);
+  border-radius: 8px;
+  margin-right: 20px;
+}
+}
+
 
 #container .box img {
   display: inline-block;
@@ -1649,6 +1896,8 @@ nav ul li a {
   padding: 9px;
   color: white;
 }
+
+
 #container {
   width: 100%;
   background: rgba(128, 128, 128, 0.441);
