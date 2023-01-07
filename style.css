@@ -995,7 +995,46 @@ nav ul li a {
   }
 }
 @media screen and (max-width: 576px){
-  
+  .row {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col-6 .option-1 {
+    max-width: 800px;
+    padding: 100px 130px 1px 50px;
+  }
+  .option-1 {
+    height: 100px;
+  }
+  .option-1 .button-1 {
+    border-radius: 12px;
+    padding: 1px 5px;
+    border: 1px solid #E7E8E3;
+    background-color: #E7E8E3;
+  }
+  .option-1 .button-2 {
+    padding: 12px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 2px;
+    border-radius: 5px;
+  }
+  .option-1 h1 {
+    font-size: 20px;
+  }
+  .option-1 p {
+    color: gray;
+  }
+  .option-1 .button-3 {
+    padding: 30px;
+  }
+  .row .col-6 img{
+    margin-top: 80px;
+    height: 200px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 300px){
   
