@@ -516,7 +516,7 @@ nav ul li a {
   }
   .section-5 p {
     color: gray;
-    margin: 2px 300px;
+    margin: 2px 180px;
   }
 }
 @media screen and (max-width: 576px){
@@ -525,7 +525,7 @@ nav ul li a {
   }
   .section-5 p {
     color: gray;
-    margin: 2px 200px;
+    margin: 2px 100px;
   }
 }
 @media screen and (max-width: 300px){
@@ -534,7 +534,7 @@ nav ul li a {
   }
   .section-5 p {
     color: gray;
-    margin: 2px 200px;
+    margin: 2px 50px;
   }
 }
 .section-6 {
