@@ -221,7 +221,7 @@ nav ul li a {
     border: none;
     padding: 8px;
     border-radius: 15px;
-    margin: 150px 20px 0 130px;
+    margin: 100px 20px 0 130px;
     background-color: rgba(128, 128, 128, 0.325);
   }
   .section h1 {
@@ -284,7 +284,7 @@ nav ul li a {
       border: none;
       padding: 8px;
       border-radius: 15px;
-      margin: 150px 50px 0 130px;
+      margin: 130px 50px 0 130px;
       background-color: rgba(128, 128, 128, 0.325);
     }
     .section h1 {
