@@ -654,7 +654,7 @@ nav ul li a {
   }
   .section-6 .part-1 {
     display: inline;
-    padding-top: 40px;
+    padding-top: 30px;
     width: 32%;
     border: 1px solid rgba(128, 128, 128, 0.316);
     box-shadow: 0 0 1.5px gray;
@@ -663,7 +663,7 @@ nav ul li a {
   }
   .section-6 .part-2 {
     display: inline;
-    padding-top: 40px;
+    padding-top: 30px;
     width: 32%;
     border: 1px solid rgba(128, 128, 128, 0.316);
     box-shadow: 0 0 1.5px gray;
@@ -673,7 +673,7 @@ nav ul li a {
   
   .section-6 .part-3 {
     display: inline;
-    padding: 40px;
+    padding: 30px;
     width: 32%;
     border: 1px solid rgba(128, 128, 128, 0.316);
     box-shadow: 0 0 1.5px gray;
@@ -682,7 +682,52 @@ nav ul li a {
   }
 }
 @media screen and (max-width: 768px) {
+  .section-6 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 40px 10px;
+  }
   
+  .section-6 img {
+    height: 50px;
+    width: 50px;
+    background-color: #fae8e1;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .section-6 p {
+    margin: 8px 20px;
+    color: gray;
+  }
+  .section-6 .part-1 {
+    display: inline;
+    padding-top: 30px;
+    width: 32%;
+    border: 1px solid rgba(128, 128, 128, 0.316);
+    box-shadow: 0 0 1.5px gray;
+    border-radius: 10px;
+    margin: 8px;
+  }
+  .section-6 .part-2 {
+    display: inline;
+    padding-top: 30px;
+    width: 32%;
+    border: 1px solid rgba(128, 128, 128, 0.316);
+    box-shadow: 0 0 1.5px gray;
+    border-radius: 10px;
+    margin: 8px;
+  }
+  
+  .section-6 .part-3 {
+    display: inline;
+    padding: 30px;
+    width: 32%;
+    border: 1px solid rgba(128, 128, 128, 0.316);
+    box-shadow: 0 0 1.5px gray;
+    border-radius: 10px;
+    margin: 8px;
+  }
 }
 @media screen and (max-width: 576px){
   
