@@ -1240,7 +1240,8 @@ nav ul li a {
     height: 300px;
     display: flex;
     flex-direction: row;
-    padding-bottom: 100px;
+    flex-wrap: wrap;
+    padding-bottom: 300px;
   }
 .option .row.zero img {
   height: 30px;
@@ -1260,7 +1261,7 @@ nav ul li a {
   margin-bottom: 10px;
 }
 .option .col-6 {
-  margin: 0;
+  margin: 0 0;
 }
 .option img {
   height: 40px;
@@ -1329,81 +1330,52 @@ nav ul li a {
 } 
 }
 @media screen and (max-width: 300px){
-  
+  .row.row-2{
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 100px;
+  }
+.option .row.zero img {
+  height: 30px;
+  width: 30px;
 }
-.flash-cards h1 {
-  text-align: center;
-  margin-bottom: 60px;
+.option {
+  margin: 10px 10px 0px 10px;
 }
-.row.one .card {
-  margin: 10px;
-  background-color: white;
-}
-.row.one .card-text{
-  margin-left: 18px;
-  padding-bottom: 10px;
-}
-.row.one p{
-  color: gray;
-}
-.row.two .card-text{
-  margin-left: 18px;
-  padding-bottom: 10px;
-}
-.row.two p{
-  color: gray;
-}
-
-.flash-cards .proper {
-  margin: 15px auto;
-  display: flex;
-  border-radius: 14px;
-  padding: 6px 10px;
+.option button {
+  padding: 7px 10px;
   background-color:  #E7E8E3;
+  border-radius: 15px;
   border: none;
 }
-.row.two .card {
+.option p {
+  color: gray;
+  margin-bottom: 10px;
+}
+.option .col-6 {
+  margin: 0;
+}
+.option .row.row-2 img {
+  height: 40px;
+  width: 30px;
+  background-color: #fae8e1;
+  padding: 8px;
+  border-radius: 8px;
+}
+.option .explore {
+  padding: 12px;
   background-color: white;
-  margin: 10px;
-}
-.row.one ul li{
-  margin: 10px;
-}
-.row.two ul li{
-  margin: 10px;
-}
-.flash-cards {
-  position: relative;
-  padding-top: 50px;
-}
-.headline .frame4 {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.headline .flex {
-  display: flex;
-  justify-content: center;
-  margin: 30px 25px;
-  align-items: center;
-}
-.flex .button2 {
-  background-color: white;
-  padding: 11px 15px;
-  border: 0.5px solid rgba(128, 128, 128, 0.471);
-  border-radius: 3px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.485);
   margin-right: 20px;
-  box-shadow: 0 0 5px rgba(128, 128, 128, 0.462) ;
 }
-
-.card ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: left;
-}
-.card ul li img {
-  margin-right: 8px;
+.option a {
+  text-decoration: none;
+  color: black;
 } 
+}
 
 @media screen and (max-width:1200px){
   .flash-cards h1 {
