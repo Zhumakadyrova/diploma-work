@@ -704,7 +704,7 @@ nav ul li a {
   .section-6 .part-1 {
     display: inline;
     padding-top: 30px;
-    width: 32%;
+    width: 45%;
     border: 1px solid rgba(128, 128, 128, 0.316);
     box-shadow: 0 0 1.5px gray;
     border-radius: 10px;
@@ -713,7 +713,7 @@ nav ul li a {
   .section-6 .part-2 {
     display: inline;
     padding-top: 30px;
-    width: 32%;
+    width: 45%;
     border: 1px solid rgba(128, 128, 128, 0.316);
     box-shadow: 0 0 1.5px gray;
     border-radius: 10px;
@@ -723,7 +723,7 @@ nav ul li a {
   .section-6 .part-3 {
     display: inline;
     padding: 30px;
-    width: 32%;
+    width: 48%;
     border: 1px solid rgba(128, 128, 128, 0.316);
     box-shadow: 0 0 1.5px gray;
     border-radius: 10px;
