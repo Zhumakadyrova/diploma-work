@@ -340,7 +340,7 @@ nav ul li a {
     }
     .section {
       background-color: rgba(128, 128, 128, 0.09);
-      height: 400px;
+      height: 800px;
       position: relative;
     }
     .section .button-1 {
@@ -405,7 +405,7 @@ nav ul li a {
   @media screen and (max-width: 300px){
     .section {
       background-color: rgba(128, 128, 128, 0.09);
-      height: 300px;
+      height: 800px;
       position: relative;
     }
     .section .button-1 {
@@ -426,8 +426,8 @@ nav ul li a {
       font-size: 20px;
     }
     .col-6 img {
-      height: 700px;
-      width: 700px;
+      height: 300px;
+      width: 3  00px;
     }
     .section input {
       margin-left: 130px;
@@ -1404,6 +1404,25 @@ nav ul li a {
 .card ul li img {
   margin-right: 8px;
 } 
+
+@media screen and (max-width:1200px){
+  
+    
+}
+@media screen and (max-width: 998px) {
+  
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 576px){
+  
+}
+@media screen and (max-width: 300px){
+  
+}
+
+
 .section-8 h1 {
   text-align: center;
 }
