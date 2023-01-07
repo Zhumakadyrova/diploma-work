@@ -2217,6 +2217,7 @@ footer .footer2 {
   justify-content: space-between;
 }
 .footer ul {
+  visibility: hidden;
   list-style-type: none;
 }
 .footer ul li{
