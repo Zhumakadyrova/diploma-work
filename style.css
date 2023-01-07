@@ -707,6 +707,9 @@ nav ul li a {
     margin: 8px 10px;
     color: gray;
   }
+  .section-6 h1{
+    font-size: 20px;
+  }
   .section-6 .part-1 {
     display: inline;
     padding-top: 30px;
@@ -737,7 +740,56 @@ nav ul li a {
   }
 }
 @media screen and (max-width: 576px){
+  .section-6 {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 10px;
+  }
   
+  .section-6 img {
+    height: 40px;
+    width: 40px;
+    background-color: #fae8e1;
+    padding: 10px;
+    border-radius: 7px;
+  }
+  .section-6 p {
+    margin: 8px 10px;
+    color: gray;
+  }
+  .section-6 h1{
+    font-size: 20px;
+  }
+  .section-6 .part-1 {
+    display: inline;
+    padding-top: 30px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.316);
+    box-shadow: 0 0 1.5px gray;
+    border-radius: 10px;
+    margin: 8px;
+  }
+  .section-6 .part-2 {
+    display: inline;
+    padding-top: 30px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.316);
+    box-shadow: 0 0 1.5px gray;
+    border-radius: 10px;
+    margin: 8px;
+  }
+  
+  .section-6 .part-3 {
+    display: inline;
+    padding: 30px;
+    width: 50%;
+    border: 1px solid rgba(128, 128, 128, 0.316);
+    box-shadow: 0 0 1.5px gray;
+    border-radius: 10px;
+    margin: 8px;
+  }
 }
 @media screen and (max-width: 300px){
   
