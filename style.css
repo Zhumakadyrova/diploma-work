@@ -1010,7 +1010,7 @@ nav ul li a {
   }
   .option-1 .button-1 {
     border-radius: 12px;
-    padding: 1px 5px;
+    margin: 2px;
     border: 1px solid #E7E8E3;
     background-color: #E7E8E3;
   }
@@ -1022,10 +1022,11 @@ nav ul li a {
     border-radius: 5px;
   }
   .option-1 h1 {
-    font-size: 20px;
+    font-size: 16px;
   }
   .option-1 p {
     color: gray;
+    font-size: 12px;
   }
   .option-1 .button-3 {
     padding: 30px;
