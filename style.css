@@ -1209,7 +1209,47 @@ nav ul li a {
 }
 }
 @media screen and (max-width: 768px) {
-  
+  .row.row-2 .col-6{
+    height: 500px;
+  }
+.option .row.zero img {
+  height: 40px;
+  width: 50px;
+}
+.option {
+  margin: 10px 10px 0px 10px;
+}
+.option button {
+  padding: 7px 10px;
+  background-color:  #E7E8E3;
+  border-radius: 15px;
+  border: none;
+}
+.option p {
+  color: gray;
+  margin-bottom: 10px;
+}
+.option .col-6 {
+  margin: 0;
+}
+.option img {
+  height: 50px;
+  width: 45px;
+  background-color: #fae8e1;
+  padding: 8px;
+  border-radius: 8px;
+}
+.option .explore {
+  padding: 12px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.485);
+  margin-right: 20px;
+}
+.option a {
+  text-decoration: none;
+  color: black;
+} 
 }
 @media screen and (max-width: 576px){
   
