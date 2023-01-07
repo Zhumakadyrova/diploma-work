@@ -851,7 +851,7 @@ nav ul li a {
 }
 .col-6 .option-1 {
   max-width: 700px;
-  padding: 120px 270px 1px 50px;
+  padding: 120px 215px 1px 50px;
 }
 .option-1 {
   height: 20px;
@@ -863,14 +863,14 @@ nav ul li a {
   background-color: #E7E8E3;
 }
 .option-1 .button-2 {
-  padding: 12px;
+  padding: 8px;
   background-color: white;
   border: 1px solid gainsboro;
   box-shadow: 0 0 2px;
   border-radius: 5px;
 }
 .option-1 h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 .option-1 p {
   color: gray;
@@ -886,8 +886,8 @@ nav ul li a {
     justify-content: center;
   }
   .col-6 .option-1 {
-    max-width: 700px;
-    padding: 120px 270px 1px 50px;
+    max-width: 600px;
+    padding: 120px 150px 1px 50px;
   }
   .option-1 {
     height: 20px;
@@ -906,7 +906,7 @@ nav ul li a {
     border-radius: 5px;
   }
   .option-1 h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .option-1 p {
     color: gray;
