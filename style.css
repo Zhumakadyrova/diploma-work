@@ -685,19 +685,20 @@ nav ul li a {
   .section-6 {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 40px 10px;
   }
   
   .section-6 img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: #fae8e1;
     padding: 10px;
     border-radius: 7px;
   }
   .section-6 p {
-    margin: 8px 20px;
+    margin: 8px 10px;
     color: gray;
   }
   .section-6 .part-1 {
