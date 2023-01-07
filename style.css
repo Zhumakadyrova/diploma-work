@@ -454,6 +454,33 @@ nav ul li a {
   padding-bottom: 250px;
 }
 
+@media screen and (max-width:1200px){
+  .back {
+    background-color:  #F5F5F2;
+    padding-bottom: 250px;
+  }
+    
+}
+@media screen and (max-width: 998px) {
+  .back {
+    background-color:  #F5F5F2;
+    padding-bottom: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .back {
+    background-color:  #F5F5F2;
+    padding-bottom: 250px;
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 576px){
+  
+}
+@media screen and (max-width: 300px){
+  
+}
+
 .flash-cards .headline button {
   padding: 10px;
   border: none;
