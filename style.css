@@ -988,6 +988,11 @@ nav ul li a {
   .option-1 .button-3 {
     padding: 30px;
   }
+  .row .col-6 img{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 576px){
   
