@@ -1536,7 +1536,7 @@ nav ul li a {
   .headline .frame4 {
     position: absolute;
     top: 0;
-    right: 0
+    left: 0
   }
   .headline .flex {
     display: flex;
