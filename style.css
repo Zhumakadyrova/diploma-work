@@ -107,12 +107,27 @@ nav ul li a {
   @media screen and (max-width: 998px) {
     .first{
       width: 100%;
-
+    }
+    nav ul {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      list-style-type: none;
+      background-color: white;
+      padding: 10px;
     }
   }
   @media screen and (max-width: 768px) {
     .first{
       width: 100%;
+    }
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      list-style-type: none;
+      background-color: white;
+      padding: 10px;
     }
   }
   @media screen and (max-width: 576px){
