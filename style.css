@@ -102,7 +102,40 @@ nav ul li a {
   .first{
     width: 100%;
   }
-    
+  nav ul li .li-1 {
+    font-weight: bolder;
+    padding: 0 450px 0 100px;
+    display: flex;
+    align-items: right;
+  }
+  
+.button-first {
+  margin: 20px 10px;
+  border-radius: 7px;
+  border: 1px solid rgba(128, 128, 128, 0.197);
+  height: 20px;
+  padding: 15px 20px 23px 20px;
+}
+.button-1 {
+  border-radius: 8px;
+}
+.button-first.b1 {
+  color: black;
+  background-color: white;
+  width: 110px;
+  text-align: center;
+}
+.button-first.b1 img {
+  size: 35px;
+  padding-left: 10px;
+}
+
+.button-first.b2 {
+  color: white;
+  background-color: rgb(235, 130, 19);
+  width: 150px;
+  border: 1px solid orange;
+}
   }
   @media screen and (max-width: 998px) {
     .first{
@@ -116,6 +149,33 @@ nav ul li a {
       background-color: white;
       padding: 10px;
     }
+    .button-first {
+      margin: 5px 10px;
+      border-radius: 7px;
+      border: 1px solid rgba(128, 128, 128, 0.197);
+      height: 20px;
+      padding: 5px 15px 25px 10px;
+    }
+    .button-1 {
+      border-radius: 8px;
+    }
+    .button-first.b1 {
+      color: black;
+      background-color: white;
+      width: 110px;
+      text-align: center;
+    }
+    .button-first.b1 img {
+      size: 35px;
+      padding-left: 8px;
+    }
+    
+    .button-first.b2 {
+      color: white;
+      background-color: rgb(235, 130, 19);
+      width: 150px;
+      border: 1px solid orange;
+    }
   }
   @media screen and (max-width: 768px) {
     .first{
@@ -128,6 +188,33 @@ nav ul li a {
       list-style-type: none;
       background-color: white;
       padding: 10px;
+    }
+    .button-first {
+      margin: 5px 10px;
+      border-radius: 7px;
+      border: 1px solid rgba(128, 128, 128, 0.197);
+      height: 20px;
+      padding: 5px 15px 25px 10px;
+    }
+    .button-1 {
+      border-radius: 8px;
+    }
+    .button-first.b1 {
+      color: black;
+      background-color: white;
+      width: 110px;
+      text-align: center;
+    }
+    .button-first.b1 img {
+      size: 35px;
+      padding-left: 8px;
+    }
+    
+    .button-first.b2 {
+      color: white;
+      background-color: rgb(235, 130, 19);
+      width: 150px;
+      border: 1px solid orange;
     }
   }
   @media screen and (max-width: 576px){
