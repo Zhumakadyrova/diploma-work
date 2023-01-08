@@ -1403,6 +1403,45 @@ nav ul li a {
 
  
 @media screen and (max-width:1200px){
+
+  .option .row.zero img {
+    height: 40px;
+    width: 50px;
+  }
+  .option {
+    margin: 45px 170px 0px 65px;
+  }
+  .option button {
+    padding: 7px 10px;
+    background-color:  #E7E8E3;
+    border-radius: 15px;
+    border: none;
+  }
+  .option p {
+    color: gray;
+    margin-bottom: 40px;
+  }
+  .option .col-6 {
+    margin: 0;
+  }
+  .option img {
+    height: 50px;
+    width: 45px;
+    background-color: #fae8e1;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  .option .explore {
+    padding: 12px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.485);
+    margin-right: 20px;
+  }
+  .option a {
+    text-decoration: none;
+    color: black;
+  }
   .flash-cards h1 {
     text-align: center;
     margin-bottom: 60px;
@@ -1455,7 +1494,7 @@ nav ul li a {
   .headline .frame4 {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
   }
   .headline .flex {
     display: flex;
@@ -1481,6 +1520,7 @@ nav ul li a {
     margin-right: 8px;
   } 
   
+   
     
 }
 @media screen and (max-width: 998px) {
