@@ -288,16 +288,16 @@ nav ul li a {
   border: none;
   padding: 8px;
   border-radius: 15px;
-  margin: 150px 50px 0 130px;
+  margin: 150px 30px 0 130px;
   background-color: rgba(128, 128, 128, 0.325);
 }
 .section h1 {
   font-weight: 500;
-  font-size: 50px;
+  font-size: 40px;
   padding: 0px 130px;
 }
 .section p {
-  padding: 0 190px 0 130px;
+  padding: 0 170px 0 130px;
   color: gray;
   font-size: 20px;
 }
@@ -306,7 +306,7 @@ nav ul li a {
   width: 700px;
 }
 .section input {
-  margin-left: 130px;
+  margin-left: 10px;
   padding: 10px 30px 10px 40px;
   color: gray;
   border: 1px solid rgba(128, 128, 128, 0.222);
@@ -350,7 +350,7 @@ nav ul li a {
     border: none;
     padding: 8px;
     border-radius: 15px;
-    margin: 100px 20px 0 130px;
+    margin: 100px 20px 0 80px;
     background-color: rgba(128, 128, 128, 0.325);
   }
   .section h1 {
