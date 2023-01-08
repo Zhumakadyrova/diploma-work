@@ -452,16 +452,16 @@ nav ul li a {
   }
   @media screen and (max-width: 768px) {
     .section .frame-1 {
-      height: 50px;
-      width: 50px;
+      height: 10px;
+      width: 10px;
       margin: 0;
       position: absolute;
       top: 0;
       left: 0;
     }
     .section .frame-2 {
-      height: 50px;
-      width: 50px;
+      height: 10px;
+      width: 10px;
       margin: 0;
       position: absolute;
       bottom: 0;
@@ -515,21 +515,66 @@ nav ul li a {
   }
   @media screen and (max-width: 576px){
     .section .frame-1 {
-      height: 50px;
-      width: 50px;
+      height: 10px;
+      width: 10px;
       margin: 0;
       position: absolute;
       top: 0;
       left: 0;
     }
     .section .frame-2 {
-      height: 80px;
-      width: 80px;
+      height: 10px;
+      width: 10px;
       margin: 0;
       position: absolute;
       bottom: 0;
       right: 0;
-    } 
+    }
+    .section {
+      background-color: rgba(128, 128, 128, 0.09);
+      height: 800px;
+      position: relative;
+    }
+    .section .button-1 {
+      border: none;
+      padding: 8px;
+      border-radius: 15px;
+      margin: 90px 50px 0 50px;
+      background-color: rgba(128, 128, 128, 0.325);
+    }
+    .section h1 {
+      font-weight: 130;
+      font-size: 20px;
+      padding: 0px 50px;
+    }
+    .section p {
+      padding: 0 90px 0 50px;
+      color: gray;
+      font-size: 16px;
+    }
+    .col-6 img {
+      height: 400px;
+      width: 100%;
+    }
+    .section input {
+      margin-left: 50px;
+      padding: 10px 5px 10px 30px;
+      color: gray;
+      border: 1px solid rgba(128, 128, 128, 0.222);
+      border-radius: 8px;
+      background-image: url(./icon/look.png);
+      background-position: 7px 7px;
+      background-repeat: no-repeat;
+    }
+    
+    .section .button-2 {
+      margin-left: 8px;
+      background-color: #cf6f49;
+      border: none;
+      color: white;
+      padding: 10px 10px;
+      border-radius: 8px;
+    }
   }
   @media screen and (max-width: 300px){
     .section {
