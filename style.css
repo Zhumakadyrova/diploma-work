@@ -226,6 +226,33 @@ nav ul li a {
       background-color: white;
       padding: 10px;
     }
+    .button-first {
+      margin: 5px 10px;
+      border-radius: 7px;
+      border: 1px solid rgba(128, 128, 128, 0.197);
+      height: 20px;
+      padding: 5px 15px 25px 10px;
+    }
+    .button-1 {
+      border-radius: 8px;
+    }
+    .button-first.b1 {
+      color: black;
+      background-color: white;
+      width: 110px;
+      text-align: center;
+    }
+    .button-first.b1 img {
+      size: 35px;
+      padding-left: 8px;
+    }
+    
+    .button-first.b2 {
+      color: white;
+      background-color: rgb(235, 130, 19);
+      width: 150px;
+      border: 1px solid orange;
+    }
   }
   @media screen and (max-width: 300px){
     .first{
