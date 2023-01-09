@@ -777,38 +777,6 @@ nav ul li a {
     }
 
 }
-
-@media screen and (max-width:1200px){
-
-    
-}
-@media screen and (max-width: 998px) {
-  .back {
-    background-color:  #F5F5F2;
-    padding-bottom: 250px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .back {
-    background-color:  #F5F5F2;
-    padding-bottom: 250px;
-    margin-top: 200px;
-  }
-}
-@media screen and (max-width: 576px){
-  
-}
-@media screen and (max-width: 300px){
-  
-}
-
-.flash-cards .headline button {
-  padding: 10px;
-  border: none;
-  border-radius: 12px;
-  display: inline;
-  align-items: center;
-}
 .section-5 {
   text-align: center;
 }
@@ -863,6 +831,39 @@ nav ul li a {
     margin: 2px 50px;
   }
 }
+
+@media screen and (max-width:1200px){
+
+    
+}
+@media screen and (max-width: 998px) {
+  .back {
+    background-color:  #F5F5F2;
+    padding-bottom: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .back {
+    background-color:  #F5F5F2;
+    padding-bottom: 250px;
+    margin-top: 200px;
+  }
+}
+@media screen and (max-width: 576px){
+  
+}
+@media screen and (max-width: 300px){
+  
+}
+
+.flash-cards .headline button {
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  display: inline;
+  align-items: center;
+}
+
 .section-6 {
   text-align: center;
   display: flex;
