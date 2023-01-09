@@ -490,7 +490,7 @@ nav ul li a {
       font-size: 16px;
     }
     .col-6 img {
-      height: 400px;
+      height: 300px;
       width: 100%;
     }
     .section input {
@@ -515,15 +515,15 @@ nav ul li a {
   }
   @media screen and (max-width: 576px){
     .section .frame-1 {
-      height: 10px;
-      width: 10px;
+      height: 1px;
+      width: 1px;
       margin: 0;
       position: absolute;
       top: 0;
       left: 0;
     }
     .section .frame-2 {
-      height: 10px;
+      height: 1px;
       width: 10px;
       margin: 0;
       position: absolute;
@@ -543,8 +543,8 @@ nav ul li a {
       background-color: rgba(128, 128, 128, 0.325);
     }
     .section h1 {
-      font-weight: 130;
-      font-size: 20px;
+      font-weight: 100;
+      font-size: 16px;
       padding: 0px 50px;
     }
     .section p {
@@ -577,6 +577,34 @@ nav ul li a {
     }
   }
   @media screen and (max-width: 300px){
+    .section .frame-1 {
+      height: 1px;
+      width: 1px;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .section .frame-2 {
+      height: 1px;
+      width: 10px;
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+    .section {
+      background-color: rgba(128, 128, 128, 0.09);
+      height: 800px;
+      position: relative;
+    }
+    .section .button-1 {
+      border: none;
+      padding: 8px;
+      border-radius: 15px;
+      margin: 90px 50px 0 50px;
+      background-color: rgba(128, 128, 128, 0.325);
+    }
     .section {
       background-color: rgba(128, 128, 128, 0.09);
       height: 800px;
