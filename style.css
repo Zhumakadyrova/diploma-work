@@ -704,14 +704,14 @@ nav ul li a {
   }
   @media screen and (max-width: 998px) {
     .section-4{
-      margin-top: 25px;
+      margin-top: 10px;
     }
     .section-4 nav ul li img{
       margin: 20px;
     }
     .section-4 nav {
       display: flex;
-      justify-content: center;
+      justify-content: left;
       align-items: center;
     }
     .section-4 .paragraph {
@@ -719,12 +719,7 @@ nav ul li a {
       padding-right: 200px;
       margin-left: 8px;
     }
-    .section-4 nav ul a {
-      background-color: white;
-      color: gray;
-      font-weight: 600;
-      list-style-type: none;
-    }
+
  
   }
   @media screen and (max-width: 768px) {
