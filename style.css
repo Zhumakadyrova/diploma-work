@@ -1019,13 +1019,14 @@ nav ul li a {
   .section-6 p {
     margin: 8px 10px;
     color: gray;
+    font-size: 14px;
   }
   .section-6 h1{
     font-size: 20px;
   }
   .section-6 .part-1 {
     display: inline;
-    padding-top: 30px;
+    padding-top: 20px;
     width: 45%;
     border: 1px solid rgba(128, 128, 128, 0.316);
     box-shadow: 0 0 1.5px gray;
