@@ -759,7 +759,22 @@ nav ul li a {
     }
   }
   @media screen and (max-width: 300px){
-    
+    .section-4{
+      margin-top: 10px;
+    }
+    .section-4 nav ul li img{
+      margin:3px;
+    }
+    .section-4 nav {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    }
+    .section-4 .paragraph {
+      display: inline-block;
+      padding-right: 0;
+      margin-left: 8px;
+    }
 
 }
 
