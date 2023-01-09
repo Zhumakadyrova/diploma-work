@@ -1280,12 +1280,12 @@ nav ul li a {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: stretch;
   }
   .col-6 .option-1 {
-    height: 300px;
-    max-width: 500px;
-    padding: 150px 130px 1px 30px;
+    height: 200px;
+    max-width: 100%;
+    padding: 20px 10px 1px 10px;
   }
   .option-1 {
     height: 20px;
@@ -1313,8 +1313,8 @@ nav ul li a {
     padding: 10px;
   }
   .row .col-6 img{
-    margin-top: 20px;
-    height: 300px;
+    margin: 5px 0;
+    height: 200px;
     width: 100%;
   }
 }
