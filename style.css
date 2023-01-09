@@ -297,7 +297,7 @@ nav ul li a {
   padding: 0px 130px;
 }
 .section p {
-  padding: 0 170px 0 130px;
+  padding: 0 130px 0 130px;
   color: gray;
   font-size: 20px;
 }
@@ -306,7 +306,7 @@ nav ul li a {
   width: 700px;
 }
 .section input {
-  margin-left: 10px;
+  margin-left: 130px;
   padding: 10px 30px 10px 40px;
   color: gray;
   border: 1px solid rgba(128, 128, 128, 0.222);
