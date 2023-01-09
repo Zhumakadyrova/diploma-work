@@ -1168,6 +1168,7 @@ nav ul li a {
 .col-6 .option-1 {
   max-width: 700px;
   padding: 120px 215px 1px 50px;
+  height: 600px;
 }
 .option-1 {
   height: 20px;
@@ -1194,6 +1195,11 @@ nav ul li a {
 .option-1 .button-3 {
   padding: 40px;
 }
+.row .col-6 img{
+  margin-top: 80px;
+  height: 600px;
+  width: 100%;
+}
 
 @media screen and (max-width:1200px){
   .row {
@@ -1203,7 +1209,7 @@ nav ul li a {
   }
   .col-6 .option-1 {
     max-width: 600px;
-    padding: 120px 150px 1px 50px;
+    padding: 120px 120px 1px 50px;
   }
   .option-1 {
     height: 20px;
@@ -1223,6 +1229,7 @@ nav ul li a {
   }
   .option-1 h1 {
     font-size: 30px;
+    
   }
   .option-1 p {
     color: gray;
@@ -1240,19 +1247,19 @@ nav ul li a {
   }
   .col-6 .option-1 {
     max-width: 500px;
-    padding: 100px 130px 1px 50px;
+    padding: 150px 90px 1px 30px;
   }
   .option-1 {
     height: 20px;
   }
   .option-1 .button-1 {
     border-radius: 12px;
-    padding: 3px 7px;
+    padding: 3px 5px;
     border: 1px solid #E7E8E3;
     background-color: #E7E8E3;
   }
   .option-1 .button-2 {
-    padding: 12px;
+    padding: 8px;
     background-color: white;
     border: 1px solid gainsboro;
     box-shadow: 0 0 2px;
@@ -1265,7 +1272,7 @@ nav ul li a {
     color: gray;
   }
   .option-1 .button-3 {
-    padding: 30px;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -1276,8 +1283,9 @@ nav ul li a {
     justify-content: center;
   }
   .col-6 .option-1 {
+    height: 300px;
     max-width: 500px;
-    padding: 100px 130px 1px 50px;
+    padding: 150px 130px 1px 30px;
   }
   .option-1 {
     height: 20px;
@@ -1302,7 +1310,7 @@ nav ul li a {
     color: gray;
   }
   .option-1 .button-3 {
-    padding: 30px;
+    padding: 10px;
   }
   .row .col-6 img{
     margin-top: 20px;
