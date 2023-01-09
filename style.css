@@ -829,6 +829,9 @@ nav ul li a {
   .section-5 {
     text-align: center;
   }
+  .section-5 h1{
+    font-size: 18px;
+  }
   .section-5 p {
     color: gray;
     margin: 2px 30px;
