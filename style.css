@@ -452,16 +452,17 @@ nav ul li a {
   }
   @media screen and (max-width: 768px) {
     .section .frame-1 {
-      height: 50px;
-      width: 50px;
+      height: 1px;
+      width: 1px;
       margin: 0;
       position: absolute;
       top: 0;
       left: 0;
+
     }
     .section .frame-2 {
-      height: 50px;
-      width: 50px;
+      height: 1px;
+      width: 1px;
       margin: 0;
       position: absolute;
       bottom: 0;
@@ -469,7 +470,7 @@ nav ul li a {
     }
     .section {
       background-color: rgba(128, 128, 128, 0.09);
-      height: 500px;
+      height: 300px;
       position: relative;
     }
     .section .button-1 {
@@ -490,6 +491,7 @@ nav ul li a {
       font-size: 16px;
     }
     .col-6 img {
+      margin-top: 0;
       height: 300px;
       width: 100%;
     }
@@ -553,6 +555,7 @@ nav ul li a {
       font-size: 16px;
     }
     .col-6 img {
+      margin-top: 0;
       height: 400px;
       width: 100%;
     }
