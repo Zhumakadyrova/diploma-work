@@ -1432,17 +1432,6 @@ nav ul li a {
   
 }
 
-.flash-cards .headline button {
-  padding: 10px;
-  border: none;
-  border-radius: 12px;
-  display: inline;
-  align-items: center;
-}
-
-
-
-
 .option .row.zero img {
   height: 40px;
   width: 50px;
@@ -1480,10 +1469,6 @@ nav ul li a {
 .option a {
   text-decoration: none;
   color: black;
-}
-.flash-cards h1 {
-  text-align: center;
-  margin-bottom: 60px;
 }
 .row.one .card {
   margin: 10px;
@@ -2085,6 +2070,23 @@ nav ul li a {
   } 
    
 }
+
+.flash-cards .headline button {
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  display: inline;
+  align-items: center;
+}
+
+
+
+
+.flash-cards h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 
 
 .section-8 h1 {
