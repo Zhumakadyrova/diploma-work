@@ -631,8 +631,9 @@ nav ul li a {
       font-size: 20px;
     }
     .col-6 img {
+      margin-top: 0;
       height: 300px;
-      width: 3  00px;
+      width: 300px;
     }
     .section input {
       margin-left: 130px;
