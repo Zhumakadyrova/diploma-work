@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
+  padding:0;
+  box-sizing: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
 }
 body {
-  font-family: "Alkalami", serif;
-  font-family: "Fredoka One", cursive;
-  font-family: "Lato", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Patrick Hand", cursive;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
+
 }
 .first {
   background-color: rgba(76, 106, 81, 0.816);
