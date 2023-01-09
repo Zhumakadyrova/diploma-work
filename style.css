@@ -1125,9 +1125,10 @@ nav ul li a {
   .section-6 p {
     margin: 8px 10px;
     color: gray;
+    font-size: 11px;
   }
   .section-6 h1{
-    font-size: 20px;
+    font-size: 16px;
   }
   .section-6 .part-1 {
     display: inline;
