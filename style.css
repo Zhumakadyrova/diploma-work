@@ -7,52 +7,37 @@
   font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
-.container {
+.container{ 
   max-width: 1340px;
   padding: 0 30px;
   margin: 0 auto;
-
 }
-.first {
-  background-color: rgba(76, 106, 81, 0.816);
+.header__top {
+  background-color: #939878;
   text-align: center;
-  margin: 0;
   padding: 10px 0;
   display: flex;
-  justify-content: space-around;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 21px;
   color: #FFFFFF;
 }
-@media screen and (max-width:1200px){
-  .first{
-    width: 100%;
-  }
-    
-  }
-  @media screen and (max-width: 998px) {
-    .first{
-      width: 100%;
-
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .first{
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 576px){
-    .first{
-      width: 100%;
-    }
-  }
-  @media screen and (max-width: 300px){
-    .first{
-      width: 100%;
-    }
-  }
+.header__bottom{
+padding-bottom: 21px 0;
+}
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__right {
+  font-display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+.header__list{
+  display: flex;
+  column-gap: 22px;
+}
   nav{
     padding: 21px 0;
     display: flex;
