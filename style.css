@@ -98,13 +98,16 @@ padding: 21px 0;
   position: relative;
 }
 .section .button-1 {
+  display: inline-block;
   border: none;
-  padding: 8px;
-  border-radius: 15px;
-  margin: 150px 30px 0 130px;
-  background-color: rgba(128, 128, 128, 0.325);
+  padding: 4px 12px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2A2C1F;
+  background: #E7E8E3;
+  border-radius: 32px;
 }
-.section h1 {
+.section h2 {
   font-weight: 500;
   font-size: 40px;
   padding: 0px 130px;
