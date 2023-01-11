@@ -108,8 +108,11 @@ padding: 21px 0;
   border-radius: 32px;
 }
 .section h2 {
-  font-size: 40px;
-  margin: 20px 0;
+  font-size: 20px;
+  line-height: 30px;
+  color: #65665C;
+
+  margin-bottom: 21px;
   font-size: 56px;
   line-height: 67px;
   color: #2A2C1F;
