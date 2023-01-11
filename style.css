@@ -37,7 +37,7 @@
   display: flex;
   column-gap: 16px;
 }
-.header__top{
+.header__top {
   background-color: #939878;
   text-align: center;
   padding: 10px 0;
@@ -45,7 +45,11 @@
   font-size: 14px;
   line-height: 21px;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
+
 .header__bottom{
 padding: 21px 0;
 }
