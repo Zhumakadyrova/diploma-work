@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   padding:0;
+  margin: 0px;
   box-sizing: 0;
   list-style-type: none;
   text-decoration: none;
@@ -34,6 +35,7 @@
 }
 .header__btns{
   display: flex;
+  column-gap: 16px;
 }
 .header__top {
   background-color: #939878;
@@ -49,7 +51,7 @@ padding-bottom: 21px 0;
 }
 .header__nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .header__right {
@@ -61,224 +63,7 @@ padding-bottom: 21px 0;
   display: flex;
   column-gap: 22px;
 }
-  nav{
-    padding: 21px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-.right ul {
-  display: flex;
-  list-style-type: none;
-  background-color: white;
-  padding: 15px;
-  column-gap: 32px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: black;
-}
-nav ul li .li-1 {
-  font-weight: bolder;
-  padding: 0 4px 0 1px;
   
-}
-nav ul li .li-1 img {
-  padding: 5px;
-}
-.button-first {
-  margin: 20px 15px;
-  border-radius: 7px;
-  border: 1px solid rgba(128, 128, 128, 0.197);
-  height: 20px;
-  padding: 15px 20px 23px 20px;
-}
-.button-1 {
-  border-radius: 8px;
-}
-.button-first.b1 {
-  color: black;
-  background-color: white;
-  width: 110px;
-  text-align: center;
-}
-.button-first.b1 img {
-  size: 35px;
-  padding-left: 10px;
-}
-
-.button-first.b2 {
-  color: white;
-  background-color: rgb(235, 130, 19);
-  width: 150px;
-  border: 1px solid orange;
-}
-@media screen and (max-width:1200px){
-  .first{
-    width: 100%;
-  }
-  nav ul li .li-1 {
-    font-weight: bolder;
-    padding: 0 450px 0 100px;
-    display: flex;
-    align-items: right;
-  }
-  
-.button-first {
-  margin: 20px 10px;
-  border-radius: 7px;
-  border: 1px solid rgba(128, 128, 128, 0.197);
-  height: 20px;
-  padding: 15px 20px 23px 20px;
-}
-.button-1 {
-  border-radius: 8px;
-}
-.button-first.b1 {
-  color: black;
-  background-color: white;
-  width: 110px;
-  text-align: center;
-}
-.button-first.b1 img {
-  size: 35px;
-  padding-left: 10px;
-}
-
-.button-first.b2 {
-  color: white;
-  background-color: rgb(235, 130, 19);
-  width: 150px;
-  border: 1px solid orange;
-}
-  }
-  @media screen and (max-width: 998px) {
-    .first{
-      width: 100%;
-    }
-    nav ul {
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-      list-style-type: none;
-      background-color: white;
-      padding: 10px;
-    }
-    .button-first {
-      margin: 5px 10px;
-      border-radius: 7px;
-      border: 1px solid rgba(128, 128, 128, 0.197);
-      height: 20px;
-      padding: 5px 15px 25px 10px;
-    }
-    .button-1 {
-      border-radius: 8px;
-    }
-    .button-first.b1 {
-      color: black;
-      background-color: white;
-      width: 110px;
-      text-align: center;
-    }
-    .button-first.b1 img {
-      size: 35px;
-      padding-left: 8px;
-    }
-    
-    .button-first.b2 {
-      color: white;
-      background-color: rgb(235, 130, 19);
-      width: 150px;
-      border: 1px solid orange;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .first{
-      width: 100%;
-    }
-    nav ul {
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: column;
-      list-style-type: none;
-      background-color: white;
-      padding: 10px;
-    }
-    .button-first {
-      margin: 5px 10px;
-      border-radius: 7px;
-      border: 1px solid rgba(128, 128, 128, 0.197);
-      height: 20px;
-      padding: 5px 15px 25px 10px;
-    }
-    .button-1 {
-      border-radius: 8px;
-    }
-    .button-first.b1 {
-      color: black;
-      background-color: white;
-      width: 110px;
-      text-align: center;
-    }
-    .button-first.b1 img {
-      size: 35px;
-      padding-left: 8px;
-    }
-    
-    .button-first.b2 {
-      color: white;
-      background-color: rgb(235, 130, 19);
-      width: 150px;
-      border: 1px solid orange;
-    }
-  }
-  @media screen and (max-width: 576px){
-    nav ul {
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: column;
-      list-style-type: none;
-      background-color: white;
-      padding: 10px;
-    }
-    .button-first {
-      margin: 5px 10px;
-      border-radius: 7px;
-      border: 1px solid rgba(128, 128, 128, 0.197);
-      height: 20px;
-      padding: 5px 15px 25px 10px;
-    }
-    .button-1 {
-      border-radius: 8px;
-    }
-    .button-first.b1 {
-      color: black;
-      background-color: white;
-      width: 110px;
-      text-align: center;
-    }
-    .button-first.b1 img {
-      size: 35px;
-      padding-left: 8px;
-    }
-    
-    .button-first.b2 {
-      color: white;
-      background-color: rgb(235, 130, 19);
-      width: 150px;
-      border: 1px solid orange;
-    }
-  }
-  @media screen and (max-width: 300px){
-    .first{
-      width: 100%;
-    }
-  }
-.container {
-  margin: 0 0;
-}
 .row .col-6{
   margin: 90px 0;
 }
