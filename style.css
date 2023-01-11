@@ -32,6 +32,9 @@
   border: 1px solid #E7E8E3;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
 }
+.header__btns{
+  display: flex;
+}
 .header__top {
   background-color: #939878;
   text-align: center;
