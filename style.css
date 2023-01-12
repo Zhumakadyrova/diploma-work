@@ -1248,12 +1248,7 @@ padding: 21px 0;
 
 
 
-@media screen and (max-width: 576px){
-  
-}
-@media screen and (max-width: 300px){
-  
-}
+
 
 .option .row.zero img {
   height: 40px;
@@ -1304,17 +1299,23 @@ padding: 21px 0;
 .row.one p{
   color: gray;
 }
-.row.two .card-text{
-  margin-left: 18px;
-  padding-bottom: 10px;
+.row.row-2{
+  max-width: 100%;
 }
-.row.two p{
+.row.row-2 .card-text{
+  margin-left: 18px;
+  padding-bottom: 0px;
+}
+.row.row.row-2 p{
   color: gray;
 }
 .row.two col-6{
   height: 500px;
   margin: 0;
   width: 800px;
+}
+.row.row-2 .col-6 .appartment-3{
+width: 600px;
 }
 .flash-cards .proper {
   margin: 15px auto;
@@ -1324,14 +1325,14 @@ padding: 21px 0;
   background-color:  #E7E8E3;
   border: none;
 }
-.row.two .card {
+.row.row-2 .card {
   background-color: white;
   margin: 10px;
 }
 .row.one ul li{
   margin: 10px;
 }
-.row.two ul li{
+.row.row-2 ul li{
   margin: 10px;
 }
 .flash-cards {
