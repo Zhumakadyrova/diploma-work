@@ -78,20 +78,20 @@ padding: 21px 0;
 .row .col-6{
   margin: 90px 0;
 }
-.section .frame-1 {
-  height: 130px;
-  width: 130px;
+ .row .frame-1 {
+  height: 10px;
+  width: 10px;
   position: absolute;
   top: 0;
   left: 0;
 }
-.section .frame-2 {
-  height: 130px;
-  width: 130px;
+.row .frame-2 {
+  height: 80px;
+  width: 80px;
   position: absolute;
   bottom: 0;
   right: 0;
-}
+} 
 .section {
   background-color: rgba(128, 128, 128, 0.09);
   height: 700px;
@@ -123,10 +123,8 @@ padding: 21px 0;
   color: gray;
   font-size: 20px;
 }
-.col-6 img {
-  height: 700px;
-  width: 700px;
-}
+
+
 .form{
   display: flex;
   align-items: center;
@@ -496,14 +494,14 @@ padding: 21px 0;
   .section-4 nav ul li img{
     margin: 20px;
   }
-  .section-4 nav {
+  .section-4 nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .section-4 .paragraph {
     display: inline-block;
-    padding-right: 500px;
+    padding-right: 600px;
     margin-left: 8px;
   }
   .section-4 nav ul a {
