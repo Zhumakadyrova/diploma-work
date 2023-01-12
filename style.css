@@ -489,7 +489,7 @@ padding: 21px 0;
     }
   } */
   .section-4{
-    margin-top: 5px;
+    margin-top: 50px;
   } 
   .section-4 nav ul li img{
     margin: 20px;
@@ -611,10 +611,12 @@ padding: 21px 0;
 
 }
 .section-5 {
+  margin-top: 50px;
   text-align: center;
 }
 .section-5 h1{
   font-size: 40px;
+  padding: 8px;
 }
 .section-5 p {
   color: gray;
@@ -687,7 +689,7 @@ padding: 21px 0;
   text-align: center;
   display: flex;
   justify-content: center;
-  margin: 40px 10px;
+  margin: 40px 50px;
 }
 
 .section-6 img {
