@@ -157,8 +157,9 @@ padding: 21px 0;
   padding: 160px 0 162px;
   background: #F5F5F2;
   border-radius: 0px;
+  position: relative;
 }
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
   .section .frame-1 {
     height: 80px;
     width: 80px;
@@ -199,7 +200,7 @@ padding: 21px 0;
   }
   .col-6 img {
     height: 600px;
-    width: 600px;
+    max-width: 720px;
   }
   .section input {
     margin-left: 70px;
@@ -488,7 +489,7 @@ padding: 21px 0;
       padding: 10px 20px;
       border-radius: 8px;
     }
-  }
+  } */
   .section-4{
     margin-top: 5px;
   } 
