@@ -1002,20 +1002,22 @@ padding: 21px 0;
 }
 .col-6 .option-1 {
   max-width: 700px;
-  margin: 120px 215px 1px 50px;
+  padding: 200px 215px 1px 50px;
   height: 600px;
 }
 .option-1 {
   height: 20px;
+  
 }
 .option-1 .button-1 {
   border-radius: 12px;
+  margin-bottom: 13px;
   padding: 3px 7px;
   border: 1px solid #E7E8E3;
   background-color: #E7E8E3;
 }
 .option-1 .button-2 {
-  padding: 8px;
+  padding: 10px;
   background-color: white;
   border: 1px solid gainsboro;
   box-shadow: 0 0 2px;
@@ -1023,9 +1025,11 @@ padding: 21px 0;
 }
 .option-1 h1 {
   font-size: 30px;
+  padding-bottom: 20px;
 }
 .option-1 p {
   color: gray;
+  padding-bottom: 25px;
 }
 .option-1 .button-3 {
   padding: 40px;
