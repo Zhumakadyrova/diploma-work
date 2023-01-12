@@ -1002,7 +1002,7 @@ padding: 21px 0;
 }
 .col-6 .option-1 {
   max-width: 700px;
-  padding: 120px 215px 1px 50px;
+  margin: 120px 215px 1px 50px;
   height: 600px;
 }
 .option-1 {
