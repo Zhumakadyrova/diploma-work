@@ -10,7 +10,7 @@
 }
 .container{ 
   max-width: 1340px;
-  padding: 0 30px;
+  padding: 0px;
   margin: 0 auto;
 }
 .btn{
@@ -77,10 +77,11 @@ padding: 21px 0;
   margin: 0 auto;
 }
 
-.row.appartment .col-6{
-  padding: 0;
+.row.appartment .col-6 .section{
+  padding: 0 40px 0 ;
   margin: 0;
   max-width: 100;
+  
 
 }
  .row.appartment .col-6 .frame-1 {
@@ -98,14 +99,14 @@ padding: 21px 0;
   right: 0;
 } 
 .section {
-  background-color: rgba(128, 128, 128, 0.09);
+  background-color: #F5F5F2;
   height: 600px;
   position: relative;
 }
 .section .button-1 {
   display: inline-block;
   border: none;
-  margin-top: 50px;
+  margin-top: 80px;
   padding: 4px 12px;
   font-size: 14px;
   line-height: 21px;
@@ -114,6 +115,7 @@ padding: 21px 0;
   border-radius: 32px;
 }
 .section h2 {
+  font-weight: 300;
   font-size: 20px;
   line-height: 30px;
   color: #65665C;
@@ -125,7 +127,6 @@ padding: 21px 0;
 
 }
 .section p {
-  padding: 0 130px 0 130px;
   color: gray;
   font-size: 20px;
 }
@@ -161,12 +162,7 @@ padding: 21px 0;
   padding: 10px 20px;
   border-radius: 8px;
 }
-.section_1{
-  padding: 160px 0 162px;
-  background: #F5F5F2;
-  border-radius: 0px;
-  position: relative;
-}
+
 /* @media screen and (max-width:1200px){
   .section .frame-1 {
     height: 80px;
@@ -1045,7 +1041,7 @@ padding: 21px 0;
   padding: 40px;
 }
 .row .col-6 img{
-  margin-top: 80px;
+  margin-top: 0px;
   height: 600px;
   width: 100%;
 }
@@ -1268,6 +1264,7 @@ padding: 21px 0;
   margin: 45px 170px 0px 65px;
 }
 .option button {
+  margin-top: 80px;
   padding: 7px 10px;
   background-color:  #E7E8E3;
   border-radius: 15px;
@@ -1275,7 +1272,7 @@ padding: 21px 0;
 }
 .option p {
   color: gray;
-  margin-bottom: 40px;
+  margin: 10px 0;
 }
 .option .col-6 {
   margin: 0;
@@ -1299,7 +1296,7 @@ padding: 21px 0;
   color: black;
 }
 .row.one .card {
-  margin: 10px;
+  margin: 5px;
   background-color: white;
 }
 .row.one .card-text{
