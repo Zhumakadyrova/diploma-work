@@ -78,14 +78,14 @@ padding: 21px 0;
 .row .col-6{
   margin: 90px 0;
 }
- .row .frame-1 {
-  height: 10px;
-  width: 10px;
+ .row .col-6 .frame-1 {
+  height: 100px;
+  width: 100px;
   position: absolute;
   top: 0;
   left: 0;
 }
-.row .frame-2 {
+.row .col-6 .frame-2 {
   height: 80px;
   width: 80px;
   position: absolute;
@@ -1039,7 +1039,7 @@ padding: 21px 0;
   height: 600px;
   width: 100%;
 }
-
+/* 
 @media screen and (max-width:1200px){
   .row {
     margin: 0;
@@ -1244,7 +1244,7 @@ padding: 21px 0;
     height: 200px;
     width: 100%;
   }
-}
+} */
 
 
 
@@ -1334,6 +1334,9 @@ width: 600px;
 }
 .row.row-2 ul li{
   margin: 10px;
+}
+.row.row-2 .option{
+  
 }
 .flash-cards {
   position: relative;
