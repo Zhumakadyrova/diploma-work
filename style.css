@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
   padding:0;
-  margin: 0px;
-  box-sizing: 0;
+  margin: 0;
   list-style-type: none;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -13,6 +12,27 @@
   padding: 0px;
   margin: 0 auto;
 }
+.header__top {
+  background-color: #939878;
+  text-align: center;
+  padding: 10px 0;
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.header__bottom{
+  height: 74px;
+  padding: 21px 0;
+  background: #FFFFFF;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+border-radius: 0px;
+  }
 .btn{
   cursor: pointer;
   border: 1px solid #E7E8E3;
@@ -25,6 +45,7 @@
   background: #CF6F49;
 
 }
+
 .btn.btn-white{
   display: flex;
   align-items: center;
@@ -37,31 +58,9 @@
   display: flex;
   column-gap: 16px;
 }
-.header__top {
-  background-color: #939878;
-  text-align: center;
-  padding: 10px 0;
-  display: flex;
-  font-size: 14px;
-  line-height: 21px;
-  color: #FFFFFF;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.header__bottom{
-padding: 21px 0;
-}
 .header__nav{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  
-}
-.header__right {
-  font-display: flex;
-  column-gap: 24px;
   align-items: center;
 }
 .header__list{
@@ -73,20 +72,30 @@ padding: 21px 0;
 .header__link{
   color: black;
 }
-.container{
+
+
+
+
+
+
+.section-1{
   margin: 0 auto;
 }
 .row.appartment{
-  width: 100%;
-  margin: 0;
+  display: flex;
 }
 .row.appartment .col-6 .section{
   padding: 0 40px 0 ;
   margin: 0;
-  width: 100%;
-  
-
+  max-width: 100%;
+  background-color: #F5F5F2;
+  height: 600px;
+  position: relative;
 }
+.row.appartment .col-6 .appartment-1{
+  max-width: 100%;
+}
+
  .row.appartment .col-6 .frame-1 {
   height: 100px;
   width: 100px;
@@ -101,11 +110,7 @@ padding: 21px 0;
   bottom: 0;
   right: 0;
 } 
-.section {
-  background-color: #F5F5F2;
-  height: 600px;
-  position: relative;
-}
+
 .section .button-1 {
   display: inline-block;
   border: none;
@@ -142,9 +147,7 @@ margin-bottom: 20px;
 color: #65665C;
 
 }
-.row.appartment .col-6 img{
-  max-width: 100%;
-}
+
 
 
 .form{
@@ -1011,12 +1014,12 @@ color: #65665C;
     margin: 8px;
   }
 } 
-
+/* 
 .row {
   margin: 0;
   display: flex;
   justify-content: center;
-}
+} */
 .col-6 .option-1 {
   max-width: 700px;
   padding: 200px 215px 1px 50px;
