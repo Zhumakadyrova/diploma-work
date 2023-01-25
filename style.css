@@ -206,6 +206,18 @@ color: #65665C;
   font-weight: 600;
   list-style-type: none;
 }
+.section-3 {
+  margin-top: 70px;
+  text-align: center;
+}
+.section-3 h1{
+  font-size: 40px;
+  padding: 8px;
+}
+.section-3 p {
+  color: #65665C;
+  margin: 40px;
+}
 /* @media screen and (max-width:1200px){
   .section .frame-1 {
     height: 80px;
@@ -638,18 +650,7 @@ color: #65665C;
     }
 
 }
-.section-5 {
-  margin-top: 50px;
-  text-align: center;
-}
-.section-5 h1{
-  font-size: 40px;
-  padding: 8px;
-}
-.section-5 p {
-  color: gray;
-  margin: 2px 430px;
-}
+
 
 @media screen and (max-width:1200px){
   .section-5 {
