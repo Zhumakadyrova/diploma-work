@@ -212,556 +212,60 @@ color: #65665C;
 }
 .section-3 h1{
   font-size: 40px;
-  padding: 8px;
+  padding: 12px;
 }
 .section-3 p {
   color: #65665C;
-  margin: 40px;
+  margin: 15px;
 }
-/* @media screen and (max-width:1200px){
-  .section .frame-1 {
-    height: 80px;
-    width: 80px;
-    margin: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .section .frame-2 {
-    height: 80px;
-    width: 80px;
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  .section {
-    background-color: rgba(128, 128, 128, 0.09);
-    height: 700px;
-    position: relative;
-  }
-  .section .button-1 {
-    border: none;
-    padding: 8px;
-    border-radius: 15px;
-    margin: 100px 20px 0 80px;
-    background-color: rgba(128, 128, 128, 0.325);
-  }
-  .section h1 {
-    font-weight: 300;
-    font-size: 35px;
-    padding: 0px 70px;
-  }
-  .section p {
-    padding: 0 120px 0 70px;
-    color: gray;
-    font-size: 20px;
-  }
-  .col-6 img {
-    height: 600px;
-    max-width: 720px;
-  }
-  .section input {
-    margin-left: 70px;
-    padding: 10px 0px 10px 25px;
-    color: gray;
-    border: 1px solid rgba(128, 128, 128, 0.222);
-    border-radius: 8px;
-    background-image: url(./icon/look.png);
-    background-position: 7px 7px;
-    background-repeat: no-repeat;
-  }
-  
-  .section .button-2 {
-    margin-left: 8px;
-    background-color: #cf6f49;
-    border: none;
-    color: white;
-    padding: 8px 8px;
-    border-radius: 8px;
-  }
-  }
-  @media screen and (max-width: 998px) {
-    .section .frame-1 {
-      height: 50px;
-      width: 50px;
-      margin: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    .section .frame-2 {
-      height: 50px;
-      width: 50px;
-      margin: 0;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-    .section {
-      background-color: rgba(128, 128, 128, 0.09);
-      height: 500px;
-      position: relative;
-    }
-    .section .button-1 {
-      border: none;
-      padding: 8px;
-      border-radius: 15px;
-      margin: 110px 50px 0 130px;
-      background-color: rgba(128, 128, 128, 0.325);
-    }
-    .section h1 {
-      font-weight: 300;
-      font-size: 40px;
-      padding: 0px 100px;
-    }
-    .section p {
-      padding: 0 160px 0 110px;
-      color: gray;
-      font-size: 16px;
-    }
-    .col-6 img {
-      height: 500px;
-      width: 100%;
-    }
-    .section input {
-      margin-left: 100px;
-      padding: 10px 30px 10px 30px;
-      color: gray;
-      border: 1px solid rgba(128, 128, 128, 0.222);
-      border-radius: 8px;
-      background-image: url(./icon/look.png);
-      background-position: 7px 7px;
-      background-repeat: no-repeat;
-    }
-    
-    .section .button-2 {
-      margin-left: 8px;
-      background-color: #cf6f49;
-      border: none;
-      color: white;
-      padding: 10px 10px;
-      border-radius: 8px;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .section .frame-1 {
-      height: 1px;
-      width: 1px;
-      margin: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-
-    }
-    .section .frame-2 {
-      height: 1px;
-      width: 1px;
-      margin: 0;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-    .section {
-      background-color: rgba(128, 128, 128, 0.09);
-      height: 400px;
-      position: relative;
-    }
-    .section .button-1 {
-      border: none;
-      padding: 8px;
-      border-radius: 15px;
-      margin: 110px 50px 0 130px;
-      background-color: rgba(128, 128, 128, 0.325);
-    }
-    .section h1 {
-      font-weight: 300;
-      font-size: 40px;
-      padding: 0px 100px;
-    }
-    .section p {
-      padding: 0 160px 0 110px;
-      color: gray;
-      font-size: 16px;
-    }
-    .col-6 img {
-      margin-top: 0;
-      height: 400px;
-      width: 100%;
-    }
-    .section input {
-      margin-left: 100px;
-      padding: 10px 30px 10px 30px;
-      color: gray;
-      border: 1px solid rgba(128, 128, 128, 0.222);
-      border-radius: 8px;
-      background-image: url(./icon/look.png);
-      background-position: 7px 7px;
-      background-repeat: no-repeat;
-    }
-    
-    .section .button-2 {
-      margin-left: 8px;
-      background-color: #cf6f49;
-      border: none;
-      color: white;
-      padding: 10px 10px;
-      border-radius: 8px;
-    }
-  }
-  @media screen and (max-width: 576px){
-    .section .frame-1 {
-      height: 1px;
-      width: 1px;
-      margin: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    .section .frame-2 {
-      height: 1px;
-      width: 10px;
-      margin: 0;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-    .section {
-      background-color: rgba(128, 128, 128, 0.09);
-      height: 800px;
-      position: relative;
-    }
-    .section .button-1 {
-      border: none;
-      padding: 8px;
-      border-radius: 15px;
-      margin: 90px 50px 0 50px;
-      background-color: rgba(128, 128, 128, 0.325);
-    }
-    .section h1 {
-      font-weight: 100;
-      font-size: 16px;
-      padding: 0px 50px;
-    }
-    .section p {
-      padding: 0 90px 0 50px;
-      color: gray;
-      font-size: 16px;
-    }
-    .col-6 img {
-      margin-top: 0;
-      height: 400px;
-      width: 100%;
-    }
-    .section input {
-      margin-left: 50px;
-      padding: 10px 5px 10px 30px;
-      color: gray;
-      border: 1px solid rgba(128, 128, 128, 0.222);
-      border-radius: 8px;
-      background-image: url(./icon/look.png);
-      background-position: 7px 7px;
-      background-repeat: no-repeat;
-    }
-    
-    .section .button-2 {
-      margin-left: 8px;
-      background-color: #cf6f49;
-      border: none;
-      color: white;
-      padding: 10px 10px;
-      border-radius: 8px;
-    }
-  }
-  @media screen and (max-width: 300px){
-    .section .frame-1 {
-      height: 1px;
-      width: 1px;
-      margin: 0;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    .section .frame-2 {
-      height: 1px;
-      width: 10px;
-      margin: 0;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-    }
-    .section {
-      background-color: rgba(128, 128, 128, 0.09);
-      height: 800px;
-      position: relative;
-    }
-    .section .button-1 {
-      border: none;
-      padding: 8px;
-      border-radius: 15px;
-      margin: 90px 50px 0 50px;
-      background-color: rgba(128, 128, 128, 0.325);
-    }
-    .section {
-      background-color: rgba(128, 128, 128, 0.09);
-      height: 800px;
-      position: relative;
-    }
-    .section .button-1 {
-      border: none;
-      padding: 8px;
-      border-radius: 15px;
-      margin: 150px 50px 0 130px;
-      background-color: rgba(128, 128, 128, 0.325);
-    }
-    .section h1 {
-      font-weight: 300;
-      font-size: 25px;
-      padding: 0px 100px;
-    }
-    .section p {
-      padding: 0 190px 0 130px;
-      color: gray;
-      font-size: 20px;
-    }
-    .col-6 img {
-      margin-top: 0;
-      height: 300px;
-      width: 300px;
-    }
-    .section input {
-      margin-left: 130px;
-      padding: 10px 30px 10px 40px;
-      color: gray;
-      border: 1px solid rgba(128, 128, 128, 0.222);
-      border-radius: 8px;
-      background-image: url(./icon/look.png);
-      background-position: 7px 7px;
-      background-repeat: no-repeat;
-    }
-    
-    .section .button-2 {
-      margin-left: 8px;
-      background-color: #cf6f49;
-      border: none;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 8px;
-    }
-  } */
-  /* 
-  @media screen and (max-width:1200px){
-    .section-4{
-      margin-top: 25px;
-    }
-    .section-4 nav ul li img{
-      margin: 20px;
-    }
-    .section-4 nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .section-4 .paragraph {
-      display: inline-block;
-      padding-right: 200px;
-      margin-left: 8px;
-    }
-    .section-4 nav ul a {
-      background-color: white;
-      color: gray;
-      font-weight: 600;
-      list-style-type: none;
-    }
-      
-  }
-  @media screen and (max-width: 998px) {
-    .section-4{
-      margin-top: 10px;
-    }
-    .section-4 nav ul li img{
-      margin: 20px;
-    }
-    .section-4 nav {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-    }
-    .section-4 .paragraph {
-      display: inline-block;
-      padding-right: 200px;
-      margin-left: 8px;
-    }
-
- 
-  }
-  @media screen and (max-width: 768px) {
-    .section-4{
-      margin-top: 10px;
-    }
-    .section-4 nav ul li img{
-      margin:10px;
-    }
-    .section-4 nav {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-    }
-    .section-4 .paragraph {
-      display: inline-block;
-      padding-right: 200px;
-      margin-left: 8px;
-    }
-  }
-  @media screen and (max-width: 576px){
-    .section-4{
-      margin-top: 10px;
-    }
-    .section-4 nav ul li img{
-      margin:5px;
-    }
-    .section-4 nav {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-    }
-    .section-4 .paragraph {
-      display: inline-block;
-      padding-right: 10px;
-      margin-left: 8px;
-    }
-  }
-  @media screen and (max-width: 300px){
-    .section-4{
-      margin-top: 10px;
-    }
-    .section-4 nav ul li img{
-      margin:3px;
-    }
-    .section-4 nav {
-      display: flex;
-      justify-content: left;
-      align-items: center;
-    }
-    .section-4 .paragraph {
-      display: inline-block;
-      padding-right: 0;
-      margin-left: 8px;
-    }
-
-}
-
-
-@media screen and (max-width:1200px){
-  .section-5 {
-    text-align: center;
-  }
-  .section-5 h1{
-  font-size: 35px;
-}
-  .section-5 p {
-    color: gray;
-    margin: 2px 300px;
-  }
-    
-}
-@media screen and (max-width: 998px) {
-  .section-5 {
-    text-align: center;
-  }
-  .section-5 h1{
-    font-size: 30px;
-  }
-  .section-5 p {
-    color: gray;
-    margin: 2px 200px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .section-5 {
-    text-align: center;
-  }
-  .section-5 h1{
-    font-size: 20px;
-  }
-  .section-5 p {
-    color: gray;
-    margin: 2px 150px;
-  }
-}
-@media screen and (max-width: 576px){
-  .section-5 {
-    text-align: center;
-  }
-  .section-5 h1{
-    font-size: 18px;
-  }
-  .section-5 p {
-    color: gray;
-    margin: 2px 30px;
-  }
-}
-@media screen and (max-width: 300px){
-  .section-5 {
-    text-align: center;
-  }
-  .section-5 h1{
-    font-size: 16px;
-  }
-  .section-5 p {
-    color: gray;
-    margin: 2px 5px;
-  }
-}
-
-.section-6 {
+.section-4 {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin: 40px 50px;
+  margin: 70px 60px;
 }
-
-.section-6 img {
+.section-4 img {
   height: 50px;
   width: 50px;
   background-color: #fae8e1;
   padding: 10px;
   border-radius: 7px;
+  margin-bottom: 20px;
 }
-.section-6 p {
-  margin: 8px 30px;
+.section-4 p {
+  margin: 18px 30px;
   color: gray;
 }
-.section-6 .part-1 {
+.section-4 .part-1 {
   display: inline;
   padding-top: 50px;
   width: 32%;
   border: 1px solid rgba(128, 128, 128, 0.316);
   box-shadow: 0 0 1.5px gray;
   border-radius: 10px;
-  margin: 8px;
+  margin: 0 20px;
 }
-.section-6 .part-2 {
+.section-4 .part-2 {
   display: inline;
   padding-top: 50px;
   width: 32%;
   border: 1px solid rgba(128, 128, 128, 0.316);
   box-shadow: 0 0 1.5px gray;
   border-radius: 10px;
-  margin: 8px;
+  margin: 0 20px;
 }
 
-.section-6 .part-3 {
+.section-4 .part-3 {
   display: inline;
   padding: 50px;
   width: 32%;
   border: 1px solid rgba(128, 128, 128, 0.316);
   box-shadow: 0 0 1.5px gray;
   border-radius: 10px;
-  margin: 8px;
+  margin: 0 20px;
 }
 
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
   .section-6 {
     text-align: center;
     display: flex;
@@ -1022,7 +526,7 @@ color: #65665C;
     border-radius: 10px;
     margin: 8px;
   }
-} 
+}  */
 /* 
 .row {
   margin: 0;
