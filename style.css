@@ -538,7 +538,7 @@ div.box {
 }
 
 .section-11 {
-  margin-top: 250px;
+  margin: 0 auto;
   background-color: white;
 
 }
@@ -552,6 +552,7 @@ div.box {
   padding-top: 30px;
 }
 .row.five{
+  margin-top: 150px;
   display: flex;
 }
 
@@ -580,7 +581,6 @@ div.box {
 .section-10 {
   padding: 50px;
   width: 100%;
-  background-color: rgba(128, 128, 128, 0.084);
   height: 1200px;
 }
 .section-10 button {
@@ -635,15 +635,6 @@ div.box {
   color: black;
 }
 
-/* 
-
-
-
-
-
-
-
-
 .footer {
   margin-top: 10px;
   height: 500px;
@@ -689,6 +680,17 @@ footer .footer2 {
 .footer2 img {
   margin: 8px;
 }
+
+
+/* 
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:1200px){
