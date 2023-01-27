@@ -399,8 +399,29 @@ border-radius: 0px;
   justify-content: center;
  }
 .row.one .col-4 {
-  margin: 10px;
+  margin: 15px;
   background-color: white;
+}
+.card-text{
+  height: 220px;
+  padding: 20px;
+}
+.col-4 .card-text h2 {
+  padding: 8px;
+}
+.col-4 .card-text h4{
+  padding: 8px;
+}
+.col-4 .card-text p{
+  padding: 8px;
+  color: gray;
+}
+.card-text ul {
+  display: flex;
+  padding: 15px;
+}
+.card-text ul li{
+  margin-right:16px;
 }
  .row.two  {
   display: flex;
