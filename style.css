@@ -595,7 +595,7 @@ div.box {
 }
 .section-11 h2 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 850px 0 0;
 }
 .section-11 p {
   text-align: center;
@@ -603,7 +603,7 @@ div.box {
   padding-top: 30px;
 }
 .row.five{
-  margin-top: 150px;
+  margin: 350px auto;
   display: flex;
 }
 
