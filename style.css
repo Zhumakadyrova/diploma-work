@@ -188,7 +188,7 @@ color: #65665C;
   border-radius: 8px;
 }
 .section-2{
-  margin: 700px 60px 0;
+  margin: 750px 60px 0;
 } 
 .section-2 nav ul li img{
   margin: 20px;
@@ -202,6 +202,7 @@ color: #65665C;
   display: inline-block;
   padding-right: 500px;
   margin-left: 8px;
+ line-height: 27px;
   font-size: 18px;
   font-weight: 400;
 }
