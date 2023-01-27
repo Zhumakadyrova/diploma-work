@@ -316,7 +316,7 @@ color: #65665C;
 .row.row-2{
   width: 100%;
   display: flex;
-  margin-top: 80px;
+  margin: 80px 0;
 }
 .row.row-2 p{
   color: gray;
@@ -376,12 +376,16 @@ height: 600px;
 
 
 .flash-cards .proper {
-  margin: 15px auto;
+  margin: 80px auto 20px;
   display: flex;
   border-radius: 14px;
   padding: 6px 10px;
   background-color:  #E7E8E3;
   border: none;
+}
+.flash-cards h1{
+  text-align: center;
+  margin-bottom: 40px;
 }
 .back {
 left: 0%;
