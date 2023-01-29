@@ -589,13 +589,13 @@ div.box {
 }
 
 .section-11 {
-  margin: 0 auto;
+  margin: 50px auto;
   background-color: white;
 
 }
-.section-11 h2 {
+.section-11 .container .item-11 {
   text-align: center;
-  padding-top: 850px 0 0;
+  margin: 400px 0;
 }
 .section-11 p {
   text-align: center;
