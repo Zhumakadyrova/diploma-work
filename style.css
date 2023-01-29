@@ -400,7 +400,7 @@
 .col-4 .card-text h4 {
   padding: 8px;
 }
-.col-4 .card-text p {
+.row-one .col-4 .card-text p {
   padding: 8px;
   color: gray;
 }
@@ -660,23 +660,38 @@ div.box {
   max-width: 405px;
   border-radius: 12px;
   background-color: white;
+  
+}
+.col-4 .card-text{
+  height: 255px;
+  padding: 10px 0 50px 20px;
 }
 .row.six .card-image{
   height: 266px;
   max-width: 405px;
+}
+.row.six .diy{
+  display: flex;
+  align-items: center;
+}
+.diy p{
+  padding-left: 15px;
+font-size: 14px;
+color: #65665C;
 }
 .col-4 .trend {
   background-color: #fae8e1;
 }
 .col-4 .paragraph4 {
   color: gray;
+  padding: 10px 0;
 }
 .col-4 .link1.link2 {
   text-decoration: none;
   color: black;
   font-weight: 700;
 }
-.col-4 .link1 {
+.col-4 .card .link1 {
   text-decoration: none;
   color: black;
 }
@@ -712,7 +727,7 @@ div.box {
   font-size: 12px;
 }
 .footer button {
-  margin-top: 14px;
+  margin-top: 18px;
   background-color: #cf6f49;
   padding: 11px 17px;
   border: none;
@@ -720,7 +735,7 @@ div.box {
   border-radius: 8px;
 }
 .footer input {
-  margin-top: 14px;
+  margin-top: 18px;
   padding: 11px 17px;
   border: 1px solid gainsboro;
   color: rgb(133, 122, 122);
