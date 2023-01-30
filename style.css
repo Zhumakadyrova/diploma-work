@@ -1558,6 +1558,7 @@
   
   .row.one {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .row.one .col-4 {
@@ -1625,6 +1626,10 @@
 }
 @media screen and (max-width: 300px){ 
 } 
+
+
+
+
 .section-8 h1 {
   text-align: center;
   margin-bottom: 35px;
@@ -1634,6 +1639,47 @@
   margin: 10px 450px 55px;
   color: gray;
 }
+
+@media screen and (max-width:1200px){
+  .section-8 h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .section-8 p {
+    text-align: center;
+    margin: 10px 320px 45px;
+    color: gray;
+  }
+}
+@media screen and (max-width: 998px) {
+  .section-8 h1 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .section-8 p {
+    text-align: center;
+    margin: 7px 200px 35px;
+    color: gray;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-8 h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .section-8 p {
+    text-align: center;
+    margin: 7px 110px 25px;
+    color: gray;
+  }
+}
+@media screen and (max-width: 576px){
+}
+@media screen and (max-width: 300px){ 
+} 
+
+
+
 .section-9 {
   margin: 10px auto;
 }
