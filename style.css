@@ -614,7 +614,7 @@
 }
 @media screen and (max-width: 768px) {
   .section-1 {
-    margin: 0px;
+    margin-top: 100px;
     max-width: 100%;
   }
   .row.appartment {
@@ -629,24 +629,24 @@
     padding: 15px 60px 0;
     margin: 0;
     width: 600px;
-    height: 506px;
+    height: 406px;
     background-color: #f5f5f2;
   }
   .row.appartment .col-6 .appartment-1 {
     width: 600px;
-    height: 506px;
+    height: 406px;
   }
   
   .row.appartment .col-6 .frame-1 {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     top: 0;
     left: 0;
   }
   .row.appartment .col-6 .frame-2 {
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -655,7 +655,7 @@
   .section .button-1 {
     display: inline-block;
     border: none;
-    margin-top: 110px;
+    margin-top: 50px;
     padding: 4px 12px;
     font-size: 14px;
     line-height: 21px;
@@ -672,19 +672,18 @@
     font-style: normal;
     font-weight: 400;
     font-size: 46px;
-    line-height: 67px;
+    line-height: 37px;
     color: #2a2c1f;
   }
   .section p {
     height: 90px;
     left: 0%;
     right: 10.18%;
-    top: 205.42px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
-    margin: 15px 0;
+    line-height: 20px;
+    margin: 1px 0;
     color: #65665c;
   }
   
