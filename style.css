@@ -4077,6 +4077,9 @@ color: #65665C;
 .footer ul li {
   padding: 10px;
 }
+.footer ul li a{
+  color: black;
+}
 .footer-btns h5 {
   padding: 10px;
 }
@@ -4149,6 +4152,9 @@ color: #65665C;
   .footer ul li {
     padding: 8px;
     font-size: 14px;
+  }
+  .footer ul li a{
+    color: black;
   }
   .footer-btns h5 {
     padding: 10px;
@@ -4223,6 +4229,9 @@ color: #65665C;
   .footer ul li {
     padding: 8px;
     font-size: 14px;
+  }
+  .footer ul li a{
+    color: black;
   }
   .footer-btns h5 {
     padding: 10px;
@@ -4300,6 +4309,9 @@ color: #65665C;
     padding: 8px;
     font-size: 14px;
   }
+  .footer ul li a{
+    color: black;
+  }
   .footer-btns h5 {
     padding: 10px;
   }
@@ -4360,33 +4372,3 @@ color: #65665C;
 @media screen and (max-width: 300px){ 
 } 
 
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1200px){
- 
-
-}
-@media screen and (max-width: 998px) {
-  
-
-}
-@media screen and (max-width: 768px) {
- 
-
-}
-@media screen and (max-width: 576px){
-  
- 
-}
-@media screen and (max-width: 300px){
- 
-} 
