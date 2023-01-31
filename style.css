@@ -1122,7 +1122,7 @@
   margin-top: 90px;
   text-align: center;
 }
-.section-3 h1 {
+.section-3 h2 {
   font-size: 40px;
   padding: 12px;
 }
@@ -1135,7 +1135,7 @@
     margin-top: 70px;
     text-align: center;
   }
-  .section-3 h1 {
+  .section-3 h2 {
     font-size: 40px;
     padding: 12px;
   }
@@ -1149,7 +1149,7 @@
     margin-top: 40px;
     text-align: center;
   }
-  .section-3 h1 {
+  .section-3 h2 {
     font-size: 34px;
     padding: 12px;
   }
@@ -1163,7 +1163,7 @@
     margin-top: 30px;
     text-align: center;
   }
-  .section-3 h1 {
+  .section-3 h2 {
     font-size: 28px;
     padding: 8px;
   }
@@ -1178,7 +1178,7 @@
     margin-top: 30px;
     text-align: center;
   }
-  .section-3 h1 {
+  .section-3 h2 {
     font-size: 28px;
     padding: 8px;
   }
@@ -1193,7 +1193,7 @@
     margin-top: 30px;
     text-align: center;
   }
-  .section-3 h1 {
+  .section-3 h2 {
     font-size: 28px;
     padding: 8px;
   }
@@ -1219,6 +1219,9 @@
   padding: 10px;
   border-radius: 7px;
   margin-bottom: 20px;
+}
+.section-4 h2{
+  font-size: 34px;
 }
 .section-4 p {
   margin: 18px 30px;
@@ -1266,6 +1269,9 @@
     padding: 7px;
     border-radius: 7px;
     margin-bottom: 15px;
+  }
+  .section-4 h2{
+    font-size: 24px;
   }
   .section-4 p {
     margin: 13px 20px;
@@ -1319,7 +1325,7 @@
     margin: 5px 10px;
     color: gray;
   }
-  .section-4 h1{
+  .section-4 h2{
     font-size: 24px;
   }
   .section-4 .part-1 {
@@ -1371,7 +1377,7 @@
     margin: 5px 10px;
     color: gray;
   }
-  .section-4 h1{
+  .section-4 h2{
     font-size: 24px;
   }
   .section-4 .part-1 {
@@ -1423,7 +1429,7 @@
     margin: 5px 10px;
     color: gray;
   }
-  .section-4 h1{
+  .section-4 h2{
     font-size: 24px;
   }
   .section-4 .part-1 {
@@ -1475,7 +1481,7 @@
     margin: 5px 10px;
     color: gray;
   }
-  .section-4 h1{
+  .section-4 h2{
     font-size: 24px;
   }
   .section-4 .part-1 {
@@ -1536,9 +1542,9 @@
   border-radius: 5px;
   width: 192px;
 }
-.option-1 h1 {
+.option-1 h2 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 35px;
   padding-bottom: 20px;
 }
 .option-1 p {
