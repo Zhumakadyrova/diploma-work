@@ -402,7 +402,7 @@
   background: #e7e8e3;
   border-radius: 32px;
 }
-.section h2 {
+.section h1 {
   margin: 25px 0;
   height: 135px;
   left: 0%;
@@ -509,7 +509,7 @@
     background: #e7e8e3;
     border-radius: 32px;
   }
-  .section h2 {
+  .section h1 {
     margin: 25px 0;
     height: 135px;
     left: 0%;
@@ -617,7 +617,7 @@
     background: #e7e8e3;
     border-radius: 32px;
   }
-  .section h2 {
+  .section h1 {
     margin: 15px 0;
     height: 105px;
     left: 0%;
@@ -725,7 +725,7 @@
     background: #e7e8e3;
     border-radius: 32px;
   }
-  .section h2 {
+  .section h1 {
     margin: 15px 0;
     height: 105px;
     left: 0%;
@@ -832,7 +832,7 @@
     background: #e7e8e3;
     border-radius: 32px;
   }
-  .section h2 {
+  .section h1 {
     margin: 15px 0;
     height: 105px;
     left: 0%;
@@ -939,7 +939,7 @@
     background: #e7e8e3;
     border-radius: 32px;
   }
-  .section h2 {
+  .section h1 {
     margin: 15px 0;
     height: 105px;
     left: 0%;
@@ -4305,7 +4305,7 @@ color: #65665C;
     right: 1.3%;
     top: 44.12px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
     color: #65665c;
     padding: 10px 0;
