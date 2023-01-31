@@ -62,11 +62,12 @@
   justify-content: space-between;
   padding: 0 20px;
 }
-.header__bottom {
+.header__bottom .nav_characters{
   height: 74px;
+  display: flex;
+  justify-content: space-between;
   padding: 21px 5px;
   background: #ffffff;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
 .btn {
@@ -91,7 +92,15 @@
 }
 .header__btns {
   display: flex;
+  justify-content: space-between;
   column-gap: 16px;
+}
+.header__btns input{
+  border: none;
+  color: black;
+  font-size: 16px;
+  width: 90px;
+  padding:  15px 8px;
 }
 .header__nav {
   display: flex;
@@ -997,7 +1006,7 @@
 
 
 .section-2 {
-  margin: 750px 60px 0;
+  margin: 80px 60px 0;
 }
 .section-2 nav ul li img {
   margin: 20px;
@@ -4372,3 +4381,8 @@ color: #65665C;
 @media screen and (max-width: 300px){ 
 } 
 
+
+
+.input input::placeholder{
+  color: black;
+}
