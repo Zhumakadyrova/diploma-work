@@ -359,7 +359,6 @@
 }
 .row.appartment {
   display: flex;
-  position: absolute;
   max-width: 100%;
 }
 .row.appartment .col-6 .section {
@@ -465,7 +464,6 @@
   }
   .row.appartment {
     display: flex;
-    position: absolute;
     max-width: 100%;
   }
   .row.appartment .col-6 .section {
