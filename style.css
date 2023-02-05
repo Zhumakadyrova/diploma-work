@@ -62,7 +62,9 @@
   justify-content: space-between;
   padding: 0 20px;
 }
-
+.header__link:hover{
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.386);
+}
 .header__bottom .nav_characters{
   height: 74px;
   display: flex;
@@ -96,6 +98,16 @@
   justify-content: space-between;
   column-gap: 16px;
 }
+.header__btns .btn-1{
+  padding: 8px;
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+}
+.header__btns img:hover{
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(163, 212, 223, 0.893);
+}
 .header__btns input{
   border: none;
   color: black;
@@ -103,6 +115,7 @@
   width: 90px;
   padding:  15px 8px;
 }
+
 .header__nav {
   display: flex;
   justify-content: space-between;
@@ -411,6 +424,11 @@
   background: #e7e8e3;
   border-radius: 32px;
 }
+.section .button-1:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
+}
+
+
 .section h1 {
   margin: 25px 0;
   height: 135px;
@@ -1034,7 +1052,7 @@
 }
 @media screen and (max-width:1200px){
   .section-2 {
-    margin: 850px 60px 0;
+    margin: 80px 60px 0;
   }
   .section-2 nav ul li img {
     margin: 20px;
@@ -1056,7 +1074,7 @@
 }
 @media screen and (max-width: 998px) {
   .section-2 {
-    margin: 1050px 30px 0;
+    margin: 100px 30px 0;
   }
   .section-2 nav ul li img {
     margin: 40px;
@@ -1078,7 +1096,7 @@
 }
 @media screen and (max-width: 768px) {
   .section-2 {
-    margin: 1000px 30px 0;
+    margin: 100px 30px 0;
   }
   .section-2 nav ul li img {
     margin: 10px;
@@ -1101,7 +1119,7 @@
 }
 @media screen and (max-width: 576px){
   .section-2 {
-    margin: 950px 30px 0;
+    margin: 100px 30px 0;
   }
   .section-2 nav ul li img {
     margin: 10px;
@@ -1536,12 +1554,14 @@
   padding: 150px 200px 1px 50px;
   height: 600px;
 }
-.option-1 .button-1 {
+.option-1 .button-1-1 {
   border-radius: 12px;
-  margin-bottom: 30px;
   padding: 3px 7px;
   border: 1px solid #e7e8e3;
   background-color: #e7e8e3;
+}
+.button-1-1:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
 }
 .option-1 .button-2 {
   padding: 8px 15px;
@@ -1552,6 +1572,7 @@
   color: black;
 }
 .option-1 h2 {
+  margin-top: 18px;
   font-weight: 700;
   font-size: 35px;
   padding-bottom: 20px;
@@ -1561,7 +1582,12 @@
   padding-bottom: 25px;
 }
 .option-1 .button-3 {
-  padding: 40px;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.button-3:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
 }
 .row .col-6 .appartment-2 {
   height: 600px;
@@ -1810,11 +1836,17 @@
   height: 600px;
 }
 .col-6 .option button {
-  margin: 60px 0 40px;
+  margin: 60px 20px 40px;
   padding: 7px 10px;
   background-color: #e7e8e3;
   border-radius: 15px;
   border: none;
+}
+.option button:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
+}
+.option a:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
 }
 .option p {
   color: gray;
@@ -1985,7 +2017,6 @@
   .row.row-2 .col-6 .appartment-3 {
     max-width: 100%;
     height: 450px;
-    margin: 0 155px;
   }
   
   .row.row-2 .col-6 .option {
