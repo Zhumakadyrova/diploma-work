@@ -2145,15 +2145,14 @@
 
 .flash-cards .proper {
   margin: 80px auto 20px;
-  display: flex;
+  display: block;
   border-radius: 14px;
   padding: 6px 10px;
   background-color: #e7e8e3;
   border: none;
 }
-.flash-cards h1 {
-  text-align: center;
-  margin-bottom: 40px;
+.flash-cards .proper:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721); 
 }
 
 .row.one {
@@ -2173,6 +2172,10 @@
 }
 .col-4 .card-text h2 {
   padding: 8px;
+  color: #2a2c1f;
+}
+.col-4 .card-text h2:hover{
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.721);
 }
 .col-4 .card-text h4 {
   padding: 8px;
@@ -2226,14 +2229,19 @@
   width: 192px;
   height: 50px;
 }
+.flex .button2:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
 .flex a{
   color: #2a2c1f;
-
+}
+.flex a:hover{
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.57);
 }
 @media screen and (max-width:1200px){
   .flash-cards .proper {
     margin: 60px auto 20px;
-    display: flex;
+    display: inline;
     border-radius: 14px;
     padding: 6px 10px;
     background-color: #e7e8e3;
@@ -2311,7 +2319,7 @@
 @media screen and (max-width: 998px) {
   .flash-cards .proper {
     margin: 60px auto 20px;
-    display: flex;
+    display: inline;
     border-radius: 14px;
     padding: 6px 10px;
     background-color: #e7e8e3;
@@ -2391,7 +2399,7 @@
 @media screen and (max-width: 768px) {
   .flash-cards .proper {
     margin: 60px auto 20px;
-    display: flex;
+    display: inline;
     border-radius: 14px;
     padding: 6px 10px;
     background-color: #e7e8e3;
@@ -2554,6 +2562,9 @@
   line-height: 24px;
   text-decoration: none;
 }
+.row.three .col-4 a:hover{
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.57);
+}
 .row.four {
   display: flex;
   justify-content: center;
@@ -2571,6 +2582,9 @@
 .row.four .col-4 a {
   color: black;
   text-decoration: none;
+}
+.row.four .col-4 a:hover{
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.57);
 }
 .flex1 {
   display: flex;
@@ -3602,15 +3616,19 @@ div.box {
   width: 100%;
   height: 1000px;
 }
-.section-10 button {
-  margin: 10px 0px 20px 0px;
+.section-10 .blog {
+  color: #2a2c1f;
+  margin: 10px 0px 40px 0px;
   background-color: rgba(128, 128, 128, 0.57);
   border: none;
-  padding: 9px 15px;
+  padding: 5px 15px;
   border-radius: 18px;
 }
-.section-10 h3 {
-  margin: 10px 0;
+.section-10 .blog:hover{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.57);
+}
+.section-10 h2 {
+  margin: 20px 0;
 }
 
 .row.nine {
@@ -3625,7 +3643,7 @@ div.box {
   color: gray;
 }
 .col-5 .view {
-  margin-top: 15px;
+  margin: 15px;
   padding: 10px 18px;
   background-color: white;
   border-radius: 3px;
@@ -3660,6 +3678,9 @@ font-size: 14px;
 color: #65665C;
 }
 .col-4 .trend {
+  border: none ;
+  padding: 3px;
+  border-radius: 15px;
   background-color: #fae8e1;
 }
 .col-4 .paragraph4 {
@@ -3671,9 +3692,15 @@ color: #65665C;
   color: black;
   font-weight: 700;
 }
+.col-4 .link1.link2:hover{
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.57);
+}
 .col-4 .card .link1 {
   text-decoration: none;
   color: black;
+}
+.col-4 .link1:active{
+  text-shadow: 0px 1px 2px rgba(131, 163, 217, 0.57);
 }
 @media screen and (max-width:1200px){
   .back2 {
@@ -3685,7 +3712,7 @@ color: #65665C;
     width: 100%;
     height: 1000px;
   }
-  .section-10 button {
+  .section-10 a {
     margin: 10px 0px 20px 0px;
     background-color: rgba(128, 128, 128, 0.57);
     border: none;
@@ -3770,7 +3797,7 @@ color: #65665C;
     width: 100%;
     height: 1000px;
   }
-  .section-10 button {
+  .section-10 a {
     margin: 10px 0px 20px 0px;
     background-color: rgba(128, 128, 128, 0.57);
     border: none;
@@ -3858,7 +3885,7 @@ color: #65665C;
     width: 100%;
     height: 1000px;
   }
-  .section-10 button {
+  .section-10 a {
     margin: 10px 0px 20px 0px;
     background-color: rgba(128, 128, 128, 0.57);
     border: none;
@@ -3948,7 +3975,7 @@ color: #65665C;
     width: 100%;
     height: 1500px;
   }
-  .section-10 button {
+  .section-10 a {
     margin: 10px 0px 20px 0px;
     background-color: rgba(128, 128, 128, 0.57);
     border: none;
@@ -4041,7 +4068,7 @@ color: #65665C;
     width: 100%;
     height: 1500px;
   }
-  .section-10 button {
+  .section-10 a {
     margin: 10px 0px 20px 0px;
     background-color: rgba(128, 128, 128, 0.57);
     border: none;
@@ -4137,6 +4164,9 @@ color: #65665C;
 .footer ul li {
   padding: 10px;
 }
+.footer ul li:hover{
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.57);
+}
 .footer ul li a{
   color: black;
 }
@@ -4178,7 +4208,12 @@ color: #65665C;
   justify-content: space-between;
 }
 .footer2 img {
+  padding: 5px;
   margin: 5px;
+  border-radius: 7px;
+}
+.footer2 img:hover{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.57);
 }
 .footer2 p {
   font-weight: 400;
