@@ -2144,17 +2144,22 @@
 
 
 .flash-cards .proper {
-  margin: 80px auto 20px;
-  display: block;
+  margin: 80px 700px 30px;
+  display: flex;
+  justify-content: center;
   border-radius: 14px;
   padding: 6px 10px;
   background-color: #e7e8e3;
   border: none;
+  color: #2a2c1f;
 }
 .flash-cards .proper:hover{
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721); 
 }
-
+.flash-cards h2{
+  text-align: center;
+  padding-bottom: 40px;
+}
 .row.one {
   display: flex;
   justify-content: center;
@@ -4397,7 +4402,6 @@ color: #65665C;
   }
   .footer ul {
     display: block;
-    overflow: scroll;
     list-style-type: none;
   }
   .footer ul li {
