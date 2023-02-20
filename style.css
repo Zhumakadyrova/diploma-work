@@ -1736,7 +1736,7 @@
   height: 600px;
 }
 .col-6 .option button {
-  margin: 60px 20px 25px;
+  margin: 45px 20px 25px;
   padding: 7px 10px;
   background-color: #e7e8e3;
   border-radius: 15px;
@@ -1745,8 +1745,11 @@
 .option button:hover{
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
 }
-.option a:hover{
+.option .explore:hover{
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
+}
+.option .contact:hover{
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
 }
 .option p {
   color: gray;
@@ -1769,6 +1772,7 @@
   border: 1px solid rgba(128, 128, 128, 0.485);
   margin-right: 20px;
 }
+
 .option a {
   text-decoration: none;
   color: black;
