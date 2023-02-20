@@ -3569,6 +3569,7 @@ div.box {
   max-width: 405px;
   border-radius: 12px;
   background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
   
 }
 .col-4 .card-text2{
@@ -4114,11 +4115,13 @@ color: #65665C;
   border-radius: 8px;
 }
 
-.footer2 {
+.footer2  {
   display: flex;
   justify-content: space-between;
+  background: #F5F5F2;
+  padding: 20px 60px;
 }
-.footer2 img {
+.footer2  img {
   padding: 5px;
   margin: 5px;
   border-radius: 7px;
