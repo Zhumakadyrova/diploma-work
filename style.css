@@ -1254,34 +1254,16 @@
   margin: 18px 30px;
   color: gray;
 }
-.section-4 .part-1 {
+.section-4 .part {
   display: inline;
   padding-top: 50px;
   width: 32%;
   border: 1px solid rgba(128, 128, 128, 0.316);
-  box-shadow: 0 0 1.5px gray;
-  border-radius: 10px;
-  margin: 0 20px;
-}
-.section-4 .part-2 {
-  display: inline;
-  padding-top: 50px;
-  width: 32%;
-  border: 1px solid rgba(128, 128, 128, 0.316);
-  box-shadow: 0 0 1.5px gray;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   margin: 0 20px;
 }
 
-.section-4 .part-3 {
-  display: inline;
-  padding: 50px;
-  width: 32%;
-  border: 1px solid rgba(128, 128, 128, 0.316);
-  box-shadow: 0 0 1.5px gray;
-  border-radius: 10px;
-  margin: 0 20px;
-}
 @media screen and (max-width:1200px){
   .section-4 {
     text-align: center;
@@ -1304,34 +1286,16 @@
     margin: 13px 20px;
     color: gray;
   }
-  .section-4 .part-1 {
+  .section-4 .part {
     display: inline;
     padding-top: 50px;
     width: 32%;
     border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     margin: 0 20px;
   }
-  .section-4 .part-2 {
-    display: inline;
-    padding-top: 50px;
-    width: 32%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 0 20px;
-  }
-  
-  .section-4 .part-3 {
-    display: inline;
-    padding: 50px;
-    width: 32%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 0 20px;
-  }
+
 }
 @media screen and (max-width: 998px) {
   .section-4 {
@@ -1355,34 +1319,16 @@
   .section-4 h2{
     font-size: 24px;
   }
-  .section-4 .part-1 {
+  .section-4 .part {
     display: inline;
     padding-top: 30px;
     width: 32%;
     border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     margin: 0 20px;
   }
-  .section-4 .part-2 {
-    display: inline;
-    padding-top: 30px;
-    width: 32%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 0 20px;
-  }
-  
-  .section-4 .part-3 {
-    display: inline;
-    padding: 30px;
-    width: 32%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 0 20px;
-  }
+
 }
 @media screen and (max-width: 768px) {
   .section-4 {
@@ -1412,26 +1358,7 @@
     padding-top: 30px;
     width: 32%;
     border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 0 20px;
-  }
-  .section-4 .part-2 {
-    display: inline;
-    padding-top: 30px;
-    width: 32%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 0 20px;
-  }
-  
-  .section-4 .part-3 {
-    display: inline;
-    padding: 30px;
-    width: 32%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     margin: 0 20px;
   }
@@ -1459,34 +1386,16 @@
   .section-4 h2{
     font-size: 24px;
   }
-  .section-4 .part-1 {
+  .section-4 .part {
     display: inline;
     padding-top: 30px;
     width: 64%;
     border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     margin: 10px 20px;
   }
-  .section-4 .part-2 {
-    display: inline;
-    padding-top: 30px;
-    width: 64%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 10px 20px;
-  }
-  
-  .section-4 .part-3 {
-    display: inline;
-    padding: 30px;
-    width: 64%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 10px 20px;
-  }
+
 }
 @media screen and (max-width: 300px){
   .section-4 {
@@ -1511,34 +1420,16 @@
   .section-4 h2{
     font-size: 24px;
   }
-  .section-4 .part-1 {
+  .section-4 .part {
     display: inline;
     padding-top: 30px;
     width: 64%;
     border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     margin: 10px 20px;
   }
-  .section-4 .part-2 {
-    display: inline;
-    padding-top: 30px;
-    width: 64%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 10px 20px;
-  }
-  
-  .section-4 .part-3 {
-    display: inline;
-    padding: 30px;
-    width: 64%;
-    border: 1px solid rgba(128, 128, 128, 0.316);
-    box-shadow: 0 0 1.5px gray;
-    border-radius: 10px;
-    margin: 10px 20px;
-  } 
+
 } 
 
 
@@ -1576,17 +1467,22 @@
   font-weight: 700;
   font-size: 35px;
   padding-bottom: 20px;
+  line-height: 45px;
 }
 .option-1 p {
   color: gray;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 .option-1 .button-3 {
   margin: 40px;
   padding: 10px;
   border-radius: 8px;
+  color: black;
 }
 .button-3:hover{
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
+}
+.button-2:hover{
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721);
 }
 .row .col-6 .appartment-2 {
@@ -1820,6 +1716,10 @@
   display: flex;
   margin: 80px 0;
 }
+.row.row-2 h2{
+  font-weight: 700;
+  font-size: 43px;
+}
 .row.row-2 p {
   color: gray;
   padding-bottom: 25px;
@@ -1836,7 +1736,7 @@
   height: 600px;
 }
 .col-6 .option button {
-  margin: 60px 20px 40px;
+  margin: 60px 20px 25px;
   padding: 7px 10px;
   background-color: #e7e8e3;
   border-radius: 15px;
@@ -1877,8 +1777,9 @@
   display: flex;
 }
 .option .row.zero img {
-  height: 40px;
+  height: 50px;
   width: 50px;
+  margin-bottom: 15px;
 }
 @media screen and (max-width:1200px){
   .row.row-2 {
