@@ -3210,6 +3210,7 @@ div.box {
 .row.five {
   margin: 25px auto;
   display: flex;
+  padding-bottom: 40px;
 }
 
 
@@ -3244,7 +3245,7 @@ div.box {
   padding-bottom: 30px;
 }
 
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
   .section-11 {
     margin: 50px auto;
     background-color: white;
@@ -3519,7 +3520,7 @@ div.box {
     color: gray;
     padding-bottom: 30px;
   }
-} 
+}  */
 
 
 
@@ -3535,7 +3536,7 @@ div.box {
 .section-10 .blog {
   color: #2a2c1f;
   margin: 20px 0px 40px 0px;
-  background-color: rgba(128, 128, 128, 0.57);
+  background-color:  #E7E8E3;
   border: none;
   padding: 5px 15px;
   border-radius: 18px;
@@ -3544,7 +3545,10 @@ div.box {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.57);
 }
 .section-10 h2 {
-  margin: 25px 0 10px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 25px 0 15px;
 }
 
 .row.nine {
@@ -3591,18 +3595,26 @@ div.box {
 }
 .diy p{
   padding-left: 15px;
-font-size: 14px;
-color: #65665C;
+  font-size: 14px;
+  color: #65665C;
 }
 .col-4 .trend {
   border: none ;
-  padding: 3px;
+  padding: 4px 15px;
   border-radius: 15px;
   background-color: #fae8e1;
 }
+.section-10 h3{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  padding-top: 8px;
+}
 .col-4 .paragraph4 {
   color: gray;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .col-4 .link1.link2 {
   text-decoration: none;
@@ -3619,7 +3631,7 @@ color: #65665C;
 .col-4 .link1:active{
   text-shadow: 0px 1px 2px rgba(131, 163, 217, 0.57);
 }
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
   .back2 {
     background: #f5f5f2;
     border-radius: 0px;
@@ -4066,7 +4078,7 @@ color: #65665C;
     text-decoration: none;
     color: black;
   }
-} 
+}  */
 
 .footer {
   margin-top: 10px;
@@ -4110,11 +4122,13 @@ color: #65665C;
   padding: 11px 17px;
   border: none;
   color: white;
+  width: 30%;
   border-radius: 8px;
 }
 .footer input {
   margin-top: 18px;
-  padding: 11px 17px;
+  padding: 11px;
+  width: 65%;
   border: 1px solid gainsboro;
   color: rgb(133, 122, 122);
   border-radius: 8px;
