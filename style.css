@@ -2399,7 +2399,9 @@
 
 .section-8 h2 {
   text-align: center;
-  margin-bottom: 35px;
+  margin: 35px;
+  font-weight: 700;
+  font-size: 48px;
 }
 .section-8 p {
   text-align: center;
