@@ -2062,7 +2062,7 @@
 .flash-cards .proper:hover{
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.721); 
 }
-.flash-cards h2{
+.flash-cards .house-area{
   text-align: center;
   padding-bottom: 40px;
 }
@@ -2077,30 +2077,32 @@
   border-bottom-right-radius: 15px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
 }
-.card-text {
+.col-4 .card-text {
   height: 220px;
-  padding: 20px;
+  padding: 25px;
 }
 .col-4 .card-text h2 {
-  padding: 8px;
   color: #2a2c1f;
+  padding-bottom: 10px;
 }
 .col-4 .card-text h2:hover{
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.721);
 }
-.col-4 .card-text h4 {
-  padding: 8px;
+.col-4 .card-text h4{
+  line-height: 30px;
+  padding-bottom: 15px;
 }
-.row-one .col-4 .card-text p {
-  padding: 8px;
-  color: gray;
+.col-4 .card-text p {
+  color:  #65665C;
+  line-height: 20px;
 }
 .card-text ul {
   display: flex;
-  padding: 15px;
 }
 .card-text ul li {
-  margin-right: 16px;
+  line-height: 30px;
+  padding: 12px 35px 0 0;
+  color:  #65665C;
 }
 .row.two {
   display: flex;
@@ -2149,7 +2151,7 @@
 .flex a:hover{
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.57);
 }
-@media screen and (max-width:1200px){
+/* @media screen and (max-width:1200px){
   .flash-cards .proper {
     margin: 60px auto 20px;
     display: inline;
@@ -2390,7 +2392,7 @@
 @media screen and (max-width: 576px){
 }
 @media screen and (max-width: 300px){ 
-} 
+}  */
 
 
 
