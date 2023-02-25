@@ -2408,7 +2408,7 @@
   margin: 10px 450px 55px;
   color: gray;
 }
-
+/* 
 @media screen and (max-width:1200px){
   .section-8 h1 {
     text-align: center;
@@ -2445,7 +2445,7 @@
 @media screen and (max-width: 576px){
 }
 @media screen and (max-width: 300px){ 
-} 
+}  */
 
 
 
@@ -2539,7 +2539,7 @@
 }
 .box img {
   margin: 40px;
-  height: 70px;
+  height: 60px;
   background-color: white;
   border-radius: 8px;
 }
@@ -2575,7 +2575,7 @@ div.box {
   width: 80%;
   margin: 0 150px 0 150px;
   border-radius: 12px;
-  background: gray;
+  background: #65665C;;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
